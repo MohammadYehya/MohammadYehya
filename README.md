@@ -2,12 +2,12 @@
 <p align="center">I'm a passionate Computer Vision and Machine Learning Engineer with a strong focus on creating intelligent systems that solve real-world problems. Currently, I'm in my final year, working on innovative projects involving context-aware anomaly detection, computer vision, and sequence verification.</p>
 
 <p align="center">
-<!--   <img src="https://komarev.com/ghpvc/?username=mohammadyehya&label=Profile%20views&color=0e75b6&style=flat" alt="mohammadyehya" />  -->
   <img src="https://visitcount.itsvg.in/api?id=MohammadYehya&label=Profile%20Views&color=10&icon=0&pretty=true" />
 </p>
 <p align="center"> 
   <a href="https://linkedin.com/in/mohammad-yehya"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white"/></a>
   <a href="https://github.com/MohammadYehya"><img src="https://img.shields.io/badge/Github-black?logo=Github&logoColor=white"/></a>
+  <a href="mailto:duongnguyen18@siggraph.org"><img src="https://img.shields.io/badge/Gmail-white?logo=gmail&logoColor=gmail"></a>
 </p>
 
 
@@ -78,13 +78,11 @@
 <h2 align="center">📊 GitHub Stats</h2>
 <p align="center">&nbsp;
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=MohammadYehya&theme=monokai&hide_border=false&include_all_commits=true&count_private=true" alt="mohammadyehya" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammadYehya&theme=monokai&hide_border=false&include_all_commits=true&count_private=true&layout=donut"/>
 </p>
-<p align="center">
+<!-- <p align="center">
   <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=MohammadYehya&theme=monokai&hide_border=false" alt="mohammadyehya" />
-</p>
-<p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammadYehya&theme=monokai&hide_border=false&include_all_commits=true&count_private=true&layout=compact"/>
-</p>
+</p> -->
 
 <h2 align="center">✍️ Random Dev Quote</h2>
 <p align="center"><img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/></p>
