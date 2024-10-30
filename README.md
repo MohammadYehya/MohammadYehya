@@ -1,2 +1,4 @@
 ## Hi there 👋
-ghi
+<foreignObject>
+  <div>Hello</div>
+</foreignObject>
