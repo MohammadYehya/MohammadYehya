@@ -3,14 +3,14 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=mohammadyehya&label=Profile%20views&color=0e75b6&style=flat" alt="mohammadyehya" /> 
+  <img src="https://visitcount.itsvg.in/api?id=MohammadYehya&icon=0&color=0)](https://visitcount.itsvg.in"/>
 </p>
 <p align="center"> 
   <a href="https://linkedin.com/in/mohammad-yehya"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white"/></a>
   <a href="https://github.com/MohammadYehya"><img src="https://img.shields.io/badge/Github-black?logo=Github&logoColor=white"/></a>
 </p>
 
-
-# 💻 Tech Stack:
+<h2 align="center">💻 Tech Stack</h2>
 <p align="center">
   <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C" />
   <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
@@ -70,19 +70,19 @@
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
 </p>
 
-# 📊 GitHub Stats:
-
+<h2 align="center">📊 GitHub Stats</h2>
 <p align="center">&nbsp;
-  <img align="center" src="https://github-readme-stats.vercel.app/apiusername=MohammadYehya&theme=dark&hide_border=false&include_all_commits=true&count_private=true" alt="mohammadyehya" /></p>
-![](https://github-readme-streak-stats.herokuapp.com/?user=MohammadYehya&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=MohammadYehya&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=MohammadYehya&theme=monokai&hide_border=false&include_all_commits=true&count_private=true" alt="mohammadyehya" />
+</p>
+<p align="center">
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=MohammadYehya&theme=monokai&hide_border=false" alt="mohammadyehya" />
+</p>
+<p align="center">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammadYehya&theme=monokai&hide_border=false&include_all_commits=true&count_private=true&layout=compact"/>
+</p>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<h2 align="center">✍️ Random Dev Quote</h2>
+<p align="center"><img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/></p>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=MohammadYehya&icon=0&color=0)](https://visitcount.itsvg.in)
-
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-
-
