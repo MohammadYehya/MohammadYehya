@@ -4,16 +4,22 @@
 <p align="center">
   <img src="https://visitcount.itsvg.in/api?id=MohammadYehya&label=Profile%20Views&color=10&icon=0&pretty=true" />
 </p>
+
+<!-- Add my works/interests -->
+<p align="center">
+</p>
+
 <p align="center"> 
-  <a href="https://linkedin.com/in/mohammad-yehya"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white"/></a>
-  <a href="https://github.com/MohammadYehya"><img src="https://img.shields.io/badge/Github-black?logo=Github&logoColor=white"/></a>
-  <a href="mailto:mohammad7446@gmail.com"><img src="https://img.shields.io/badge/Gmail-white?logo=gmail&logoColor=gmail"></a>
+  <a href="https://linkedin.com/in/mohammad-yehya"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://github.com/MohammadYehya"><img src="https://img.shields.io/badge/Github-black?&style=for-the-badge&logo=Github&logoColor=white"/></a>
+  <a href="mailto:mohammad7446@gmail.com"><img src="https://img.shields.io/badge/Gmail-white?&style=for-the-badge&logo=gmail&logoColor=gmail"></a>
 </p>
 
 
-<!-- Add my works -->
 <!-- Add top Repos -->
-
+<p align="center">
+  
+</p>
 
 <h2 align="center">💻 Tech Stack</h2>
 <p align="center">
