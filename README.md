@@ -5,20 +5,10 @@
   <img src="https://visitcount.itsvg.in/api?id=MohammadYehya&label=Profile%20Views&color=10&icon=0&pretty=true" />
 </p>
 
-<!-- Add my works/interests -->
-<p align="center">
-</p>
-
 <p align="center"> 
   <a href="https://linkedin.com/in/mohammad-yehya"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://github.com/MohammadYehya"><img src="https://img.shields.io/badge/Github-black?&style=for-the-badge&logo=Github&logoColor=white"/></a>
   <a href="mailto:mohammad7446@gmail.com"><img src="https://img.shields.io/badge/Gmail-white?&style=for-the-badge&logo=gmail&logoColor=gmail"></a>
-</p>
-
-
-<!-- Add top Repos -->
-<p align="center">
-  
 </p>
 
 <h2 align="center">📊 GitHub Stats</h2>
@@ -36,6 +26,7 @@
       <p align="center">
         <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C" />
         <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+        <img src="https://img.shields.io/badge/c%23-%2300599C.svg?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
         <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
         <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
         <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
@@ -61,6 +52,7 @@
         <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" alt="FastAPI" />
         <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="NodeJS" />
         <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="Express.js" />
+        <img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white" alt=".NET"/>
         <img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101" alt="Socket.io" />
       </p>
       <h3>DevOps & Cloud</h3>
@@ -74,6 +66,7 @@
       </p>
       <h3>Content Management Systems</h3>
       <p align="center">
+        <img src="https://img.shields.io/badge/Sanity-%23ffffff.svg?style=for-the-badge&logo=Sanity" alt="Sanity" />
       </p>
       <h3>Databases</h3>
       <p align="center">
@@ -82,6 +75,7 @@
         <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="Postgres" />
         <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
         <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+        <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white" alt="MS SQL Server"/>
       </p>
       <h3>Data Science & Machine Learning</h3>
       <p align="center">
@@ -109,6 +103,9 @@
       <h3>Frameworks & Libraries</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
+        <img src="https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green" alt="Cuda"/>
+        <img src="https://img.shields.io/badge/Qiskit-%236929C4.svg?style=for-the-badge&logo=Qiskit&logoColor=white" alt="Qiskit"/>
+        <img src="https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium"/>
         <img src="https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white" alt="Chart.js" />
         <img src="https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white" alt="Qt" />
         <img src="https://img.shields.io/badge/zod-%233068b7.svg?style=for-the-badge&logo=zod&logoColor=white" alt="Zod" />
@@ -137,6 +134,16 @@
       </p>
   </p>
 </details>
+
+<h2 align="center">📂 Top Repos</h2>
+<p align="center">
+  <a href="https://github.com/MohammadYehya/test">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya&repo=test&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515" alt=""/>
+  </a>
+  <a href="https://github.com/MohammadYehya/MohammadYehya">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya&repo=mohammadyehya&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515" alt=""/>
+  </a>
+</p>
 
 <h2 align="center">✍️ Random Dev Quote</h2>
 <p align="center"><img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/></p>
