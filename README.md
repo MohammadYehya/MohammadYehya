@@ -18,7 +18,7 @@
 </p>
 
 <h2 align="center">💻 Tech Stack</h2>
-<p align="center">My tech stack includes everything I need to bring ideas to life, letting me tackle projects from development to deployment with ease. For web development, I can set up responsive frontends and robust backends, while databases and cloud hosting ensure smooth, scalable data management and deployment. When it comes to data science and machine learning, I can analyze data, build predictive models, and add intelligent features to my projects. Creative tools allow me to add a polished, visual touch, whether it’s UI design, video editing, or content creation. I can even dive into hardware with robotics and IoT when I want to prototype physical systems. To keep everything running smoothly, command-line utilities and DevOps tools streamline my workflow, so I can stay focused on building, experimenting, and exploring new ideas confidently.</p>
+<p align="center">My tech stack enables me to take projects from concept to completion with ease. I handle responsive frontends, robust backends, and scalable data management through databases and cloud hosting. With expertise in data science and machine learning, I build intelligent features and predictive models. My creative skills in UI design and video editing add a polished finish, while robotics and IoT allow me to prototype physical systems. DevOps tools and command-line utilities streamline my workflow, ensuring efficient development, experimentation, and deployment of innovative solutions.</p>
 <details align="center">
   <summary>Click for more Details...</summary>
   <p align="center">
