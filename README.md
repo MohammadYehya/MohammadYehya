@@ -1,4 +1,3 @@
-<img src="https://github.com/MohammadYehya/MohammadYehya/blob/main/working.gif" alt="" />
 <h1 align="center">Hi 👋, I'm Mohammad Yehya</h1>
 <p align="center">I'm a passionate Computer Vision and Machine Learning Engineer with a strong focus on creating intelligent systems that solve real-world problems. Currently, I'm in my final year, working on innovative projects involving context-aware anomaly detection, computer vision, and sequence verification.</p>
 
@@ -6,10 +5,13 @@
   <img src="https://visitcount.itsvg.in/api?id=MohammadYehya&label=Profile%20Views&color=10&icon=0&pretty=true" />
 </p>
 
-<p align="center"> 
-  <a href="https://linkedin.com/in/mohammad-yehya"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://github.com/MohammadYehya"><img src="https://img.shields.io/badge/Github-black?&style=for-the-badge&logo=Github&logoColor=white"/></a>
-  <a href="mailto:mohammad7446@gmail.com"><img src="https://img.shields.io/badge/Gmail-white?&style=for-the-badge&logo=gmail&logoColor=gmail"></a>
+<p align="center">
+  <p align="center"> 
+    <a href="https://linkedin.com/in/mohammad-yehya"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+    <a href="https://github.com/MohammadYehya"><img src="https://img.shields.io/badge/Github-black?&style=for-the-badge&logo=Github&logoColor=white"/></a>
+    <a href="mailto:mohammad7446@gmail.com"><img src="https://img.shields.io/badge/Gmail-white?&style=for-the-badge&logo=gmail&logoColor=gmail"></a>
+  </p>
+<img src="https://github.com/MohammadYehya/MohammadYehya/blob/main/working.gif" alt="" />
 </p>
 
 <h2 align="center">📊 GitHub Stats</h2>
