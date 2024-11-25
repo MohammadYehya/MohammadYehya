@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div>
-      Hello Test
+      Hey there! Mohammad Yehya here!
     </div>
   );
 }
