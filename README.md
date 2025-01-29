@@ -114,7 +114,7 @@
       <p align="center">
         <img src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white" alt="NPM" />
         <img src="https://img.shields.io/badge/Poetry-%233B82F6.svg?style=for-the-badge&logo=poetry&logoColor=0B3D8D" alt="Poetry" />
-<!--         <img src="https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white" alt="Cmake"/> -->
+        <img src="https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white" alt="Cmake"/>
       </p>
       <h3>API & Authentication</h3>
       <p align="center">
@@ -127,7 +127,7 @@
       <p align="center">
         <img src="https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
         <img src="https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green" alt="Cuda"/>
-<!--         <img src="https://img.shields.io/badge/OpenGL-white?logo=OpenGL&style=for-the-badge" alt="OpenGL"/> -->
+        <img src="https://img.shields.io/badge/OpenGL-white?logo=OpenGL&style=for-the-badge" alt="OpenGL"/>
 <!--         <img src="https://shields.io/badge/FFmpeg-%23171717.svg?logo=ffmpeg&style=for-the-badge&labelColor=171717&logoColor=5cb85c" alt="ffmpeg"/> -->
         <img src="https://img.shields.io/badge/Qiskit-%236929C4.svg?style=for-the-badge&logo=Qiskit&logoColor=white" alt="Qiskit"/>
         <img src="https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium"/>
@@ -152,9 +152,10 @@
         <img src="https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white" alt="Windows Terminal" />
         <img src="https://img.shields.io/badge/tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white" alt="Tmux"/>
       </p>
-      <h3>Messaging & Stream Processing</h3>
+      <h3>Stream Processing & Caching Tools</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka" alt="Apache Kafka" />
+        <img src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
       </p>
       <h3>Multimedia & Video Editing</h3>
       <p align="center">
