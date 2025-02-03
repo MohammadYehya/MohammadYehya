@@ -1,14 +1,14 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+// import { useState } from "react";
 import { data } from "../config"
 import {Box, CodeXml} from "lucide-react"
 
 export default function Navbar() {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
-  };
+  // const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  // const toggleMobileMenu = () => {
+  //   setIsMobileMenuOpen(!isMobileMenuOpen);
+  // };
 
   return (
     <div>
