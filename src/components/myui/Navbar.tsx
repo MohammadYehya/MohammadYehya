@@ -63,6 +63,7 @@ export default function Navbar() {
                     className="flex items-center p-2 px-4 text-black hover:bg-slate-300 transition-all duration-200"
                   >
                     <Link href={item.href} className="flex items-center">
+                      <div className="scale-[60%]"></div>
                       {item.icon}
                       {item.name}
                     </Link>
@@ -110,6 +111,7 @@ export default function Navbar() {
                 className="flex items-center"
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               >
+                <div className="scale-[60%]"></div>
                 {item.icon}
                 {item.name}
               </Link>
