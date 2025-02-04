@@ -1,4 +1,4 @@
-import { data } from "@/components/config";
+import { data } from "@/lib/data/config";
 import img from "../../public/selfpic.png";
 import Image from "next/image";
 import { Github, Linkedin } from "lucide-react";
