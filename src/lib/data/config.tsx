@@ -1,3 +1,5 @@
+import { Box, BrainCircuit, BriefcaseBusiness, FileText, GraduationCap } from "lucide-react";
+
 export const data = {
     UserData : {
         "name" : "Mohammad",
@@ -9,26 +11,31 @@ export const data = {
     "NavItems" : [
         {
             "name": "Skills",
+            "icon": <BrainCircuit className="scale-[60%]"/>,
             "href": "/Skills",
             "content":["C++", "Python"]
         },
         {
             "name": "Projects",
+            "icon": <Box className="scale-[60%]"/>,
             "href": "/Projects",
             "content": {}
         },
         {
             "name": "Experience",
+            "icon": <BriefcaseBusiness className="scale-[60%]"/>,
             "href": "/Experience",
             "content": {}
         },
         {
             "name": "Education",
+            "icon": <GraduationCap className="scale-[60%]"/>,
             "href": "/Education",
             "content": {}
         },
         {
             "name": "Resumé",
+            "icon": <FileText className="scale-[60%]"/>,
             "href": "/Resume",
             "content": {}
         }

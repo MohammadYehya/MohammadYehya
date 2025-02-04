@@ -1,8 +1,8 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { JSX, useState } from "react";
 import { data } from "../../lib/data/config";
-import { Box, CodeXml } from "lucide-react";
+import { CodeXml } from "lucide-react";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -57,13 +57,13 @@ export default function Navbar() {
           <div className="hidden lg:block">
             <ul className="flex flex-col mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center">
               {data.NavItems.map(
-                (item: { name: string; href: string }, index: number) => (
+                (item: { name: string; icon: JSX.Element; href: string }, index: number) => (
                   <li
                     key={index}
                     className="flex items-center p-2 px-4 text-black hover:bg-slate-300 transition-all duration-200"
                   >
                     <Link href={item.href} className="flex items-center">
-                      <Box className="scale-[60%]" />
+                      {item.icon}
                       {item.name}
                     </Link>
                   </li>
@@ -110,7 +110,7 @@ export default function Navbar() {
                 className="flex items-center"
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               >
-                <Box className="scale-[60%]" />
+                {item.icon}
                 {item.name}
               </Link>
             </li>
