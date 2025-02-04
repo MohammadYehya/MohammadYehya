@@ -1,5 +1,5 @@
 import { data } from "@/lib/data/config";
-import img from "../../public/selfpic.png";
+import img from "@/lib/data/selfpic.png";
 import Image from "next/image";
 import { Github, Linkedin } from "lucide-react";
 import Link from "next/link";
