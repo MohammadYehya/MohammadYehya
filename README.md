@@ -3,7 +3,7 @@
 <p align="center">I'm a passionate Computer Vision and Machine Learning Engineer with a strong focus on creating intelligent systems that solve real-world problems. Currently, I'm in my final year, working on innovative projects involving context-aware anomaly detection, computer vision, and sequence verification.</p>
 
 <p align="center">
-  <img src="https://visitcount.itsvg.in/api?id=MohammadYehya&label=Profile%20Views&color=10&icon=0&pretty=true" />
+<!--   <img src="https://visitcount.itsvg.in/api?id=MohammadYehya&label=Profile%20Views&color=10&icon=0&pretty=true" /> -->
 </p>
 
 <p align="center"> 
@@ -21,7 +21,7 @@
 </p>
 
 <h2 align="center">💻 Tech Stack</h2>
-<p align="center">My tech stack enables me to take projects from concept to completion with ease. I handle responsive frontends, robust backends, and scalable data management through databases and cloud hosting. With expertise in data science and machine learning, I build intelligent features and predictive models. My creative skills in UI design and video editing add a polished finish, while robotics and IoT allow me to prototype physical systems. DevOps tools and command-line utilities streamline my workflow, ensuring efficient development, experimentation, and deployment of innovative solutions.</p>
+<p align="center">I’m a developer passionate about web development, machine learning, game development, and computer vision. I enjoy building web apps, creating custom game engines, and solving complex problems with AI. Always exploring new technologies to apply to real-world projects.</p>
 <details align="center">
   <summary>Click for more Details...</summary>
   <p align="center">
