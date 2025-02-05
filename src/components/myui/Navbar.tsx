@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { JSX, useState } from "react";
+import { useState } from "react";
 import { data } from "../../lib/data/config";
 import { CodeXml } from "lucide-react";
 
@@ -9,26 +9,29 @@ export default function Navbar() {
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
-
   return (
     <div>
       <nav className="w-screen max-w-screen h-[45px] flex items-center bg-white bg-opacity-90 sticky top-3 shadow lg:px-2 backdrop-blur-lg backdrop-saturate-150 z-[9999]">
         <div className="w-full flex items-center justify-between text-slate-800 px-8">
-          <Link
-            href="/"
-            className="mr-4 cursor-pointer font-bold flex lg:flex-1"
-            onClick={() => setIsMobileMenuOpen(false)}
-          >
-            <CodeXml className="mr-2" />
-            <div className="hidden lg:flex">{`${data.UserData.name} ${data.UserData.lastname}`}</div>
-          </Link>
-          <Link
-            href="/"
-            className="mr-4 cursor-pointer font-bold flex flex-1 justify-center lg:hidden"
-            onClick={() => setIsMobileMenuOpen(false)}
-          >
-            {`${data.UserData.name} ${data.UserData.lastname}`}
-          </Link>
+          <div className="mr-4 font-bold flex lg:flex-1">
+            <Link
+              href="/"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="flex"
+            >
+              <CodeXml className="mr-2" />
+              <div className="hidden lg:flex">{`${data.UserData.name} ${data.UserData.lastname}`}</div>
+            </Link>
+          </div>
+          <div className="mr-4 font-bold flex flex-1 justify-center lg:hidden">
+            <Link
+              href="/"
+              className="flex"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              {`${data.UserData.name} ${data.UserData.lastname}`}
+            </Link>
+          </div>
 
           <div className="lg:hidden">
             <button
@@ -56,20 +59,18 @@ export default function Navbar() {
 
           <div className="hidden lg:block">
             <ul className="flex flex-col mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center">
-              {data.NavItems.map(
-                (item: { name: string; icon: JSX.Element; href: string }, index: number) => (
-                  <li
-                    key={index}
-                    className="flex items-center p-2 px-4 text-black hover:bg-slate-300 transition-all duration-200"
-                  >
-                    <Link href={item.href} className="flex items-center">
-                      <div className="scale-[60%]"></div>
-                      {item.icon}
-                      {item.name}
-                    </Link>
-                  </li>
-                )
-              )}
+              {Object.keys(data.NavItems).map((item, index) => (
+                <li
+                  key={index}
+                  className="flex items-center p-2 px-4 text-black hover:bg-slate-300 transition-all duration-200"
+                >
+                  <Link href={data.NavItems[item as keyof typeof data.NavItems].href} className="flex items-center">
+                    <div className="scale-[60%]"></div>
+                    {data.NavItems[item as keyof typeof data.NavItems].icon}
+                    {data.NavItems[item as keyof typeof data.NavItems].name}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">test</div>
@@ -101,22 +102,24 @@ export default function Navbar() {
           </button>
         </div>
         <ul className="flex flex-col h-full gap-4 p-4">
-          {data.NavItems.map((item, index) => (
-            <li
+          {
+            Object.keys(data.NavItems).map((item, index) => (
+              <li
               key={index}
               className="flex items-center p-1 text-lg gap-x-2 text-slate-600 hover:text-red-500"
             >
               <Link
-                href={item.href}
+                href={data.NavItems[item as keyof typeof data.NavItems].href}
                 className="flex items-center"
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               >
                 <div className="scale-[60%]"></div>
-                {item.icon}
-                {item.name}
+                {data.NavItems[item as keyof typeof data.NavItems].icon}
+                {data.NavItems[item as keyof typeof data.NavItems].name}
               </Link>
             </li>
-          ))}
+            ))
+          }
         </ul>
       </div>
     </div>

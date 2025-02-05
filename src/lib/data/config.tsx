@@ -8,36 +8,36 @@ export const data = {
         "github" : "https://github.com/MohammadYehya",
         "linkedin" : "https://www.linkedin.com/in/mohammad-yehya/"
     },
-    "NavItems" : [
-        {
+    "NavItems" : {
+        "Skills": {
             "name": "Skills",
             "icon": <BrainCircuit className="scale-[60%]"/>,
             "href": "/Skills",
-            "content":["C++", "Python"]
+            "content":[{"title": 'test'}]
         },
-        {
+        "Projects": {
             "name": "Projects",
             "icon": <Box className="scale-[60%]"/>,
             "href": "/Projects",
-            "content": {}
+            "content": [{"title": 'Test', "type": 'Test', 'description' : 'Test'}]
         },
-        {
+        "Experience": {
             "name": "Experience",
             "icon": <BriefcaseBusiness className="scale-[60%]"/>,
             "href": "/Experience",
-            "content": {}
+            "content": [{"title": 'test'}]
         },
-        {
+        "Education": {
             "name": "Education",
             "icon": <GraduationCap className="scale-[60%]"/>,
             "href": "/Education",
-            "content": {}
+            "content": [{"title": 'test'}]
         },
-        {
+        "Resume": {
             "name": "Resumé",
             "icon": <FileText className="scale-[60%]"/>,
             "href": "/Resume",
-            "content": {}
+            "content": [{"title": 'test'}]
         }
-    ]
+    }
 }

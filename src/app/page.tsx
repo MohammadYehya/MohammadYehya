@@ -1,3 +1,4 @@
+"use client"
 import { data } from "@/lib/data/config";
 import img from "@/lib/data/selfpic.png";
 import Image from "next/image";
