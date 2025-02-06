@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
+// import { Separator } from "@/components/ui/separator";
 import { data } from "@/lib/data/config";
 
 export default function Skills() {
@@ -8,7 +8,7 @@ export default function Skills() {
       <div className="flex px-4 md:w-[80%] justify-center flex-col">
         <h1 className="text-7xl font-bold flex justify-center mb-5">Skills</h1>
         {data.NavItems.Skills.content.map((item, index) => (
-          <div className="">
+          <div className="" key={index}>
             <div className="flex justify-center items-center mt-10">
               <div className="w-[50px] border flex"></div>
               <div className="flex text-sm px-4 text-gray-400">
@@ -20,7 +20,7 @@ export default function Skills() {
               {item.content.map((name, index) => (
                 <Card
                   key={index}
-                  className="flex md:flex-1 w-full md:min-w-[30%] md:max-w-[30%] p-5 items-center"
+                  className="flex md:flex-1 w-full md:min-w-[30%] md:max-w-[30%] p-5 items-center hover:scale-105 transition-all duration-300"
                 >
                   <div className="font-bold">{name}</div>
                 </Card>
