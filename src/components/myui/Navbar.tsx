@@ -11,7 +11,7 @@ export default function Navbar() {
   };
   return (
     <div>
-      <nav className="w-screen max-w-screen h-[45px] flex items-center bg-white bg-opacity-90 sticky top-3 shadow lg:px-2 backdrop-blur-lg backdrop-saturate-150 z-[9999]">
+      <nav className="w-full max-w-screen h-[45px] flex items-center bg-white bg-opacity-90 sticky top-3 shadow lg:px-2 backdrop-blur-lg backdrop-saturate-150 z-[9999]">
         <div className="w-full flex items-center justify-between text-slate-800 px-8">
           <div className="mr-4 font-bold flex lg:flex-1">
             <Link
