@@ -1,5 +1,4 @@
 import { Card } from "@/components/ui/card";
-// import { Separator } from "@/components/ui/separator";
 import { data } from "@/lib/data/config";
 
 export default function Skills() {
@@ -17,12 +16,19 @@ export default function Skills() {
               <div className="border flex flex-1"></div>
             </div>
             <div className="flex flex-wrap justify-center gap-y-2 md:gap-x-2 mt-4">
-              {item.content.map((name, index) => (
+              {item.content.map((details, index) => (
                 <Card
                   key={index}
-                  className="flex md:flex-1 w-full md:min-w-[30%] md:max-w-[30%] p-5 items-center hover:scale-105 transition-all duration-300"
+                  className={`flex flex-col lg:flex-1 w-full md:min-w-[49%] md:max-w-[49%] lg:min-w-[30%] lg:max-w-[30%] p-5 h-20 hover:h-28 group items-center transition-all duration-300 ease-in-out`}
                 >
-                  <div className="font-bold">{name}</div>
+                  <div className="font-bold items-start flex w-full">
+                    {details.name}
+                  </div>
+                  <div
+                    className={`group-hover:flex text-transparent group-hover:text-black transition-all duration-500 ease-in-out`}
+                  >
+                    Proficiency: {details.proficiency}
+                  </div>
                 </Card>
               ))}
             </div>
