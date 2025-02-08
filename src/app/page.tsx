@@ -6,7 +6,7 @@ import { Github, Linkedin, UserPen } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import Navbar from "@/components/myui/Navbar";
-import { NumberTicker } from "@/components/magicui/number-ticker";
+// import { NumberTicker } from "@/components/magicui/number-ticker";
 
 export default function Home() {
   const [open, setOpen] = useState(false);
