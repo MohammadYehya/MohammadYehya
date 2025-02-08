@@ -10,8 +10,9 @@ export const data = {
   UserData: {
     name: "Mohammad",
     lastname: "Yehya",
+    profession: 'Software Developer | Machine Learning Engineer',
     about:
-      "I'm a passionate Computer Vision and Machine Learning Engineer with a strong focus on creating intelligent systems that solve real-world problems. Currently, I'm in my final year, working on innovative projects involving context-aware anomaly detection, computer vision, and sequence verification.",
+      "I'm a developer who lives in Pakistan. I love learning and using different technologies. Currently, I'm working on a project with Toyota which involves context-aware anomaly detection, computer vision, and sequence verification.",
     github: "https://github.com/MohammadYehya",
     linkedin: "https://www.linkedin.com/in/mohammad-yehya/",
   },
