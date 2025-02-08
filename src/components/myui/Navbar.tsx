@@ -3,17 +3,17 @@ import Link from "next/link";
 import { useState } from "react";
 import { NavItems, UserData } from "@/lib/data/config";
 import { CodeXml } from "lucide-react";
-import { Transition } from "./Transition";
+// import { Transition } from "./Transition";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [route, setRoute] = useState(false);
+  // const [route, setRoute] = useState(false);
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
   return (
     <>
-      <Transition route={route}/>
+      {/* <Transition route={route}/> */}
       <div>
         <nav className="w-full max-w-screen h-[45px] flex items-center bg-white bg-opacity-90 sticky top-3 shadow lg:px-2 backdrop-blur-lg backdrop-saturate-150 z-[100]">
           <div className="w-full flex items-center justify-between text-slate-800 px-8">
