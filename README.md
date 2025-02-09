@@ -3,13 +3,13 @@
 <img align='right' src="./gitassets/pondfish.gif" height="240px"/>
 <p align="left">
 
-- I'm currently an undergraduate student at FAST NUCES.
-- I have a mild obsession with System Design and AI. If there's a new tech out there, I’m probably already trying to break it or make it better.
-- Future Goals:
-  - Develop Generative AI-based Saas (because why not let AI do all the work?)
-  - Create an open-source game engine.
-  - Learn Rust to make things blazingly fast and unreasonably secure.
-- I play Chess! Not saying I’m a grandmaster, but I have definitely rage-quit a few games.
+- 🎓 I'm currently an undergraduate student at FAST NUCES.
+- 🤖 I have a mild obsession with System Design and AI. If there's a new tech out there, I’m probably already trying to break it or make it better.
+- 🚀 Future Goals:
+  - 🧠 Develop Generative AI-based Saas (because why not let AI do all the work?)
+  - 🎮 Create an open-source game engine (because reinventing the wheel is my idea of fun).
+  - ⚡ Learn Rust to make things blazingly fast and unreasonably secure.
+- ♟️ I play Chess! Not saying I’m a grandmaster, but I have definitely rage-quit a few games.
 
 </p>
 
