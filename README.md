@@ -1,17 +1,23 @@
 <!-- <img src="https://github.com/MohammadYehya/MohammadYehya/blob/main/working.gif" alt="" /> -->
 <h1 align="center">Hi 👋, I'm Mohammad Yehya</h1>
 <img align='right' src="./gitassets/pondfish.gif" height="250px"/>
-<p align="left">I'm a passionate Computer Vision and Machine Learning Engineer with a strong focus on creating intelligent systems that solve real-world problems. Currently, I'm in my final year, working on innovative projects involving context-aware anomaly detection, computer vision, and sequence verification.</p>
+<p align="left">
 
+- I'm currently an undergraduate student at FAST NUCES.
+- Heavily interested in System Design and AI.
+- Love throwing myself at new technologies.
+- Future Goals:
+  - Develop Generative AI-based Saas
+  - Create an open-source game engine.
+  - Learn Rust for improvements in system speeds and security.
+- Fun fact: I enjoy playing Chess!
+
+</p>
 
 <p align="center">
   <!-- <img src="https://visitcount.itsvg.in/api?id=MohammadYehya&label=Profile%20Views&color=10&icon=0&pretty=true" /> -->
 </p>
 
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 
