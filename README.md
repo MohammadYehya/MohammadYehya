@@ -1,6 +1,6 @@
 <!-- <img src="https://github.com/MohammadYehya/MohammadYehya/blob/main/working.gif" alt="" /> -->
 <h1 align="center">Hi 👋, I'm Mohammad Yehya</h1>
-<img align='right' src="./gitassets/workstation.gif" height="250px"/>
+<img align='right' src="./gitassets/pondfish.gif" height="250px"/>
 <p align="left">I'm a passionate Computer Vision and Machine Learning Engineer with a strong focus on creating intelligent systems that solve real-world problems. Currently, I'm in my final year, working on innovative projects involving context-aware anomaly detection, computer vision, and sequence verification.</p>
 
 
