@@ -1,16 +1,15 @@
 <!-- <img src="https://github.com/MohammadYehya/MohammadYehya/blob/main/working.gif" alt="" /> -->
 <h1 align="center">Hi 👋, I'm Mohammad Yehya</h1>
-<img align='right' src="./gitassets/pondfish.gif" height="250px"/>
+<img align='right' src="./gitassets/pondfish.gif" height="240px"/>
 <p align="left">
 
 - I'm currently an undergraduate student at FAST NUCES.
-- Heavily interested in System Design and AI.
-- Love throwing myself at new technologies.
+- I have a mild obsession with System Design and AI. If there's a new tech out there, I’m probably already trying to break it or make it better.
 - Future Goals:
-  - Develop Generative AI-based Saas
+  - Develop Generative AI-based Saas (because why not let AI do all the work?)
   - Create an open-source game engine.
-  - Learn Rust for improvements in system speeds and security.
-- Fun fact: I enjoy playing Chess!
+  - Learn Rust to make things blazingly fast and unreasonably secure.
+- I play Chess! Not saying I’m a grandmaster, but I have definitely rage-quit a few games.
 
 </p>
 
