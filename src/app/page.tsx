@@ -1,12 +1,12 @@
 "use client";
-import { UserData } from "@/lib/data/config";
-import img from "@/lib/data/selfpic.png";
+import { UserData } from "../../public/data/config";
+import img from "../../public/selfpic.png";
 import Image from "next/image";
 import { Github, Linkedin, UserPen } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import Navbar from "@/components/myui/Navbar";
-// import { NumberTicker } from "@/components/magicui/number-ticker";
+import { NumberTicker } from "@/components/magicui/number-ticker";
 
 export default function Home() {
   const [open, setOpen] = useState(false);
@@ -47,7 +47,7 @@ export default function Home() {
             <p className="flex lg:w-auto pb-4 px-4 lg:pr-20 lg:px-0">
               {UserData.about}
             </p>
-            {/* <div className="flex justify-evenly items-center  w-[80%] h-auto p-4 mb-2">
+            <div className="flex justify-evenly items-center  w-[80%] h-auto p-4 mb-2">
               <div>
                 <NumberTicker
                   value={6}
@@ -69,7 +69,7 @@ export default function Home() {
                 />
                 Contributions
               </div>
-            </div> */}
+            </div>
             <p className="flex gap-x-3">
               <Link
                 href={UserData.github}
