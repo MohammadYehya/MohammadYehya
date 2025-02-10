@@ -3,9 +3,6 @@ import { useEffect, useState } from "react";
 import Navbar from "@/components/myui/Navbar";
 import { Card } from "@/components/ui/card";
 import { MySkills } from "../../../public/data/config";
-import Image from "next/image";
-
-export const dynamic = "force-dynamic";
 
 export default function Skills() {
   const [open, setOpen] = useState(false);
@@ -38,7 +35,7 @@ export default function Skills() {
                     <div className="font-bold items-start flex w-full pl-5">
                       {details.name}
                     </div>
-                    <Image src={details.imgpath} alt="" width={175} height={1} className="opacity-60" draggable={false}/>
+                    <img src={details.imgpath} alt="" width={175} height={1} className="opacity-60" draggable={false}/>
                     {/* <div
                       className={`group-hover:flex text-transparent group-hover:text-black transition-all duration-500 ease-in-out`}
                     >
