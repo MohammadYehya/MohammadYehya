@@ -2,8 +2,8 @@
 import { useEffect, useState } from "react";
 import Navbar from "@/components/myui/Navbar";
 import { Card } from "@/components/ui/card";
-import { MySkills } from "@/lib/data/config";
-
+import { MySkills } from "../../../public/data/config";
+import Image from "next/image";
 export default function Skills() {
   const [open, setOpen] = useState(false);
     useEffect(() => {
@@ -26,20 +26,21 @@ export default function Skills() {
                 </div>
                 <div className="border flex flex-1"></div>
               </div>
-              <div className="flex flex-wrap justify-center gap-y-2 md:gap-x-2 mt-4">
+              <div className="flex flex-wrap justify-center gap-y-3 md:gap-x-3 mt-4">
                 {item.content.map((details, index) => (
                   <Card
                     key={index}
-                    className={`flex flex-col lg:flex-1 w-full md:min-w-[49%] md:max-w-[49%] lg:min-w-[30%] lg:max-w-[30%] p-5 h-20 hover:h-28 group items-center transition-all duration-300 ease-in-out`}
+                    className={`flex flex-row justify-start lg:flex-1 w-full md:min-w-[49%] md:max-w-[49%] lg:min-w-[30%] lg:max-w-[30%] p- h-14 hover:h-32 group items-center transition-all duration-300 ease-in-out overflow-clip`}
                   >
-                    <div className="font-bold items-start flex w-full">
+                    <div className="font-bold items-start flex w-full pl-5">
                       {details.name}
                     </div>
-                    <div
+                    <Image src={details.imgpath} alt="" width={175} height={1} className="opacity-60" draggable={false}/>
+                    {/* <div
                       className={`group-hover:flex text-transparent group-hover:text-black transition-all duration-500 ease-in-out`}
                     >
                       Proficiency: {details.proficiency}
-                    </div>
+                    </div> */}
                   </Card>
                 ))}
               </div>
