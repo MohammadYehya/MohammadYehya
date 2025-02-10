@@ -4,12 +4,10 @@ import Navbar from "@/components/myui/Navbar";
 import { Card } from "@/components/ui/card";
 import { MySkills } from "../../../public/data/config";
 import Image from "next/image";
-import dynamic from "next/dynamic";
 
 export default function Skills() {
   const [open, setOpen] = useState(false);
   useEffect(() => {
-    MySkills.content.forEach((group) => {group.content.forEach((item) => {dynamic(() => import(item.imgpath))})})
     setOpen(true);
   }, []);
   return (
