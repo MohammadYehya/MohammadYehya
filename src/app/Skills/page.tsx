@@ -4,6 +4,9 @@ import Navbar from "@/components/myui/Navbar";
 import { Card } from "@/components/ui/card";
 import { MySkills } from "../../../public/data/config";
 import Image from "next/image";
+
+export const dynamic = "force-dynamic";
+
 export default function Skills() {
   const [open, setOpen] = useState(false);
     useEffect(() => {
