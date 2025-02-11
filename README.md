@@ -22,7 +22,7 @@
 
 <p align="center"> 
   <a href="https://linkedin.com/in/mohammad-yehya"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://mohammadyehya.github.io/MohammadYehya"><img src="https://img.shields.io/badge/Portfolio-darkred?&style=for-the-badge&logo=GoogleChrome&logoColor=white"/></a>  
+  <a href="https://mohammadyehya.github.io"><img src="https://img.shields.io/badge/Portfolio-darkred?&style=for-the-badge&logo=GoogleChrome&logoColor=white"/></a>  
   <a href="https://github.com/MohammadYehya"><img src="https://img.shields.io/badge/Github-black?&style=for-the-badge&logo=Github&logoColor=white"/></a>
   <a href="mailto:mohammad7446@gmail.com"><img src="https://img.shields.io/badge/Gmail-white?&style=for-the-badge&logo=gmail&logoColor=gmail"></a>
 </p>
