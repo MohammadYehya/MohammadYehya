@@ -184,8 +184,8 @@
   <a href="https://github.com/MohammadYehya/GridForge">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya&repo=GridForge&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515" alt=""/>
   </a>
-  <a href="https://github.com/MohammadYehya/Quantum_Edge_Detection">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya&repo=Quantum_Edge_Detection&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515" alt=""/>
+  <a href="https://github.com/MohammadYehya/LinguaLink">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya&repo=LinguaLink&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515" alt=""/>
   </a>
 </p>
 
