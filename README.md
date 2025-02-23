@@ -30,7 +30,7 @@
 <h2 align="center">📊 GitHub Stats</h2>
 <p align="center">&nbsp;
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=MohammadYehya&theme=monokai&hide_border=false&include_all_commits=false&count_private=true" alt="mohammadyehya" />
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammadYehya&theme=monokai&hide_border=false&include_all_commits=true&count_private=true&layout=compact&langs_count=90"/>
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammadYehya&theme=monokai&hide_border=false&include_all_commits=true&count_private=true&layout=compact&langs_count=10"/>
 </p>
 
 <h2 align="center">💻 Tech Stack</h2>
