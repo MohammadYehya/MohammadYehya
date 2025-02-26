@@ -29,8 +29,8 @@
 
 <h2 align="center">📊 GitHub Stats</h2>
 <p align="center">&nbsp;
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=MohammadYehya&theme=monokai#gh-dark-mode-only&hide_border=false&include_all_commits=false&count_private=true" alt="mohammadyehya" />
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammadYehya&theme=monokai&hide_border=false&include_all_commits=true&count_private=true&layout=compact&langs_count=10"/>
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=MohammadYehya&theme=bear&show_icons=true&border_color=EFBF04&rank_icon=default&border_radius=4.5&include_all_commits=false&count_private=true" alt="mohammadyehya" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammadYehya&theme=bear&border_color=EFBF04&border_radius=4.5&include_all_commits=true&count_private=true&layout=compact&langs_count=10&hide=Jupyter%20Notebook"/>
 </p>
 
 <h2 align="center">💻 Tech Stack</h2>
@@ -182,10 +182,10 @@
 <h2 align="center">📂 Top Repos</h2>
 <p align="center">
   <a href="https://github.com/MohammadYehya/GridForge">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya&repo=GridForge&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515" alt=""/>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya&repo=GridForge&theme=bear&show_icons=true&border_color=EFBF04" alt=""/>
   </a>
   <a href="https://github.com/MohammadYehya/LinguaLink">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya&repo=LinguaLink&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515" alt=""/>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya&repo=LinguaLink&theme=bear&show_icons=true&border_color=EFBF04" alt=""/>
   </a>
 </p>
 
