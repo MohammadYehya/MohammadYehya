@@ -15,11 +15,9 @@
 
 <p align="center">
   <!-- <img src="https://visitcount.itsvg.in/api?id=MohammadYehya&label=Profile%20Views&color=10&icon=0&pretty=true" /> -->
+  <img src="https://komarev.com/ghpvc/?username=MohammadYehya&color=red&base=2000&abbreviated=true" />
 </p>
-
-<br>
 <!-- <br> -->
-
 <p align="center"> 
   <a href="https://linkedin.com/in/mohammad-yehya"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin-white&logoColor=white"/></a>
   <a href="https://mohammadyehya.github.io"><img src="https://img.shields.io/badge/Portfolio-darkred?&style=for-the-badge&logo=GoogleChrome&logoColor=white"/></a>  
