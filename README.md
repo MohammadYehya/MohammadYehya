@@ -28,7 +28,7 @@
 <h2 align="center">📊 GitHub Stats</h2>
 <p align="center">&nbsp;
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=MohammadYehya&theme=bear&show_icons=true&border_color=EFBF04&rank_icon=default&border_radius=30&show=prs_merged&include_all_commits=false&count_private=true" alt="mohammadyehya" />
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammadYehya&theme=bear&border_color=EFBF04&border_radius=30&card_width=470&include_all_commits=true&count_private=true&layout=compact&langs_count=10&hide=Jupyter%20Notebook,HTML,CSS"/>
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammadYehya&theme=bear&border_color=EFBF04&border_radius=30&card_width=300&include_all_commits=true&count_private=true&layout=compact&langs_count=10&hide=Jupyter%20Notebook,HTML,CSS"/>
 </p>
 
 <h2 align="center">💻 Tech Stack</h2>
