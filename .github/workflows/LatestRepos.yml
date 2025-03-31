@@ -1,0 +1,36 @@
+name: Update README with Last Worked On Repos
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Get Last Updated Repositories
+        run: |
+          REPO_DATA=$(curl -s "https://api.github.com/users/MohammadYehya/repos?sort=updated&per_page=2")
+          REPO1=$(echo "$REPO_DATA" | jq -r '.[0].name')
+          REPO2=$(echo "$REPO_DATA" | jq -r '.[1].name')
+          
+          REPO_MARKDOWN="<a href="https://github.com/MohammadYehya/$REPO1"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya&repo=$REPO1&theme=bear&show_icons=true&border_color=EFBF04&border_radius=30" alt=""/></a>\n"
+          REPO_MARKDOWN+="<a href="https://github.com/MohammadYehya/$REPO2"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya&repo=$REPO2&theme=bear&show_icons=true&border_color=EFBF04&border_radius=30" alt=""/></a>"
+          
+          echo "REPO_MARKDOWN=$REPO_MARKDOWN" >> $GITHUB_ENV
+
+      - name: Update README
+        run: |
+          sed -i '/<!-- LAST_WORKED_ON_REPOS -->/,/<!-- END_LAST_WORKED_ON_REPOS -->/c\<!-- LAST_WORKED_ON_REPOS -->\n'"$REPO_MARKDOWN"'\n<!-- END_LAST_WORKED_ON_REPOS -->' README.md
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Updated last worked-on repos" || exit 0
+          git push
