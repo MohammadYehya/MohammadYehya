@@ -22,8 +22,8 @@ jobs:
           REPO_MARKDOWN+="<a href="https://github.com/MohammadYehya/$REPO2"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya&repo=$REPO2&theme=bear&show_icons=true&border_color=EFBF04&border_radius=30" alt=""/></a>"
 
           echo "Latest repos: $REPO1, $REPO2"
-          echo "$REPO_MARKDOWN"
           echo "REPO_MARKDOWN=$REPO_MARKDOWN" >> $GITHUB_ENV
+          echo "$REPO_MARKDOWN"
 
       - name: Update README
         run: |
