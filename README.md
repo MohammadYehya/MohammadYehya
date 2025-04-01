@@ -183,14 +183,9 @@
 
 <h2 align="center">📂 Top Repos</h2>
 <p align="center">
-  <!-- LAST_WORKED_ON_REPOS -->
-  <a href="https://github.com/MohammadYehya/GridForge">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya&repo=GridForge&theme=bear&show_icons=true&border_color=EFBF04&border_radius=30" alt=""/>
-  </a>
-  <a href="https://github.com/MohammadYehya/LinguaLink">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya&repo=LinguaLink&theme=bear&show_icons=true&border_color=EFBF04&border_radius=30" alt=""/>
-  </a>
-  <!-- END_LAST_WORKED_ON_REPOS -->
+<!-- LAST_WORKED_ON_REPOS -->
+
+<!-- END_LAST_WORKED_ON_REPOS -->
 </p>
 
 <!-- h2 align="center">✍️ Random Dev Quote</h2 -->
