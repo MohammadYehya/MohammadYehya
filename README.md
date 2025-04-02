@@ -183,10 +183,15 @@
 
 <h2 align="center">📂 Latest Repos Worked On</h2>
 <p align="center">
+<p align="center">
+(Automatically Updates via Github Actions)
+</p>
+<div align="center">
 <!-- LAST_WORKED_ON_REPOS -->
 <a href=https://github.com/MohammadYehya/Image_Super_Resolution><img src=https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya&repo=Image_Super_Resolution&theme=bear&show_icons=true&border_color=EFBF04&border_radius=30 alt=/></a>
 <a href=https://github.com/MohammadYehya/MohammadYehya><img src=https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya&repo=MohammadYehya&theme=bear&show_icons=true&border_color=EFBF04&border_radius=30 alt=/></a>
 <!-- END_LAST_WORKED_ON_REPOS -->
+</div>
 </p>
 
 <!-- h2 align="center">✍️ Random Dev Quote</h2 -->
