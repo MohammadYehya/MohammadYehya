@@ -2,7 +2,7 @@ name: Update README with Last Worked On Repos
 
 on:
   schedule:
-    - cron: '0/5 * * * *'
+    - cron: '0/15 * * * *'
   workflow_dispatch:
 
 jobs:
