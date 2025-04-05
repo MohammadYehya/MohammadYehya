@@ -2,7 +2,7 @@ name: Update README with Last Worked On Repos
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '0/5 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -14,9 +14,10 @@ jobs:
 
       - name: Get Last Updated Repositories
         run: |
-          REPO_DATA=$(curl -s "https://api.github.com/users/MohammadYehya/repos?sort=updated&per_page=2")
-          REPO1=$(echo "$REPO_DATA" | jq -r '.[0].name')
-          REPO2=$(echo "$REPO_DATA" | jq -r '.[1].name')
+          REPO_DATA=$(curl -s "https://api.github.com/users/MohammadYehya/repos?sort=updated&per_page=10")
+          FILTERED_REPOS=$(echo "$REPO_DATA" | jq --arg exclude "MohammadYehya" '[.[] | select(.name != $exclude)]')
+          REPO1=$(echo "$FILTERED_REPOS" | jq -r '.[0].name')
+          REPO2=$(echo "$FILTERED_REPOS" | jq -r '.[1].name')
           
           REPO_MARKDOWN=$(echo "<a href="https://github.com/MohammadYehya/$REPO1"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya\&repo=$REPO1\&theme=bear\&show_icons=true\&border_color=EFBF04\&border_radius=30" alt=""/></a>\n<a href="https://github.com/MohammadYehya/$REPO2"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya\&repo=$REPO2\&theme=bear\&show_icons=true\&border_color=EFBF04\&border_radius=30" alt=""/></a>")
 
