@@ -30,8 +30,8 @@
   <a href="https://github-readme-stats.vercel.app/api?username=MohammadYehya&theme=bear&show_icons=true&border_color=EFBF04&rank_icon=default&border_radius=30&show=prs_merged&include_all_commits=false&count_private=true">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=MohammadYehya&theme=bear&show_icons=true&border_color=EFBF04&rank_icon=default&border_radius=30&show=prs_merged&include_all_commits=false&count_private=true" alt="mohammadyehya" />  
   </a>
-  <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammadYehya&theme=bear&border_color=EFBF04&border_radius=30&card_width=300&include_all_commits=true&count_private=true&layout=compact&langs_count=10&hide=Jupyter%20Notebook,HTML,CSS">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammadYehya&theme=bear&border_color=EFBF04&border_radius=30&card_width=300&include_all_commits=true&count_private=true&layout=compact&langs_count=10&hide=Jupyter%20Notebook,HTML,CSS"/>
+  <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammadYehya&theme=bear&border_color=EFBF04&border_radius=30&card_width=300&include_all_commits=true&count_private=true&layout=compact&langs_count=10&hide=Jupyter%20Notebook,HTML,CSS,Rich%20Text%20Format,TeX">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammadYehya&theme=bear&border_color=EFBF04&border_radius=30&card_width=300&include_all_commits=true&count_private=true&layout=compact&langs_count=10&hide=Jupyter%20Notebook,HTML,CSS,Rich%20Text%20Format,TeX"/>
   </a>
 </p>
 
