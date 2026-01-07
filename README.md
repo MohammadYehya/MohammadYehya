@@ -48,8 +48,8 @@
 </p>
 <div align="center">
 <!-- LAST_WORKED_ON_REPOS -->
+<a href=https://github.com/MohammadYehya/Quantum_Edge_Detection><img src=https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya&repo=Quantum_Edge_Detection&theme=bear&show_icons=true&border_color=EFBF04&border_radius=30 alt=/></a>
 <a href=https://github.com/MohammadYehya/SegmentAnythingModel_SAM><img src=https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya&repo=SegmentAnythingModel_SAM&theme=bear&show_icons=true&border_color=EFBF04&border_radius=30 alt=/></a>
-<a href=https://github.com/MohammadYehya/HypotheticalDocumentEmbeddings_HyDE><img src=https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya&repo=HypotheticalDocumentEmbeddings_HyDE&theme=bear&show_icons=true&border_color=EFBF04&border_radius=30 alt=/></a>
 <!-- END_LAST_WORKED_ON_REPOS -->
 </div>
 </p>
