@@ -27,9 +27,9 @@
 <!-- https://emigonetworks.com/certification-training/microsoft-certifications/azure-certification-training/azure-900-certification-training for certification svgs-->
 <h2 align="center">Certifications</h2>
 <p align="center">&nbsp;
-  <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/4D41A80F9460F08D?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/microsoft-certified-az-900.svg" width="100px"/></a>
-  <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/5290D9046C16C22?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/microsoft-certified-ai-900.svg" width="100px"/></a>
-  <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/57B97DDDBDD0B602?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/microsoft-certified-dp-900.svg" width="100px"/></a>
+  <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/4D41A80F9460F08D?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/microsoft-certified-az-900.svg" width="80px"/></a>
+  <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/5290D9046C16C22?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/microsoft-certified-ai-900.svg" width="80px"/></a>
+  <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/57B97DDDBDD0B602?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/microsoft-certified-dp-900.svg" width="80px"/></a>
 </p>
 <!-- <p align="center">&nbsp;
   <a href=""><img src="./gitassets/certifications/microsoft-certified-ai-102.svg" width="100px"/></a>
