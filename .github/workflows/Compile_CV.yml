@@ -5,7 +5,7 @@ on:
       - main
     paths:
       - 'main.tex'
-      - '**.svg'
+      - 'gitassets/certification/**'
 
 jobs:
   build_latex:
@@ -14,18 +14,14 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install Inkscape
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y inkscape
-
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
           root_file: main.tex
-          args: "-pdf -latexmk -interaction=nonstopmode -shell-escape"
+          args: "-pdf -interaction=nonstopmode -shell-escape"
+          extra_system_packages: "inkscape librsvg"
 
-      - name: Upload PDF
+      - name: Upload PDF Artifact
         uses: actions/upload-artifact@v4
         with:
           name: Resume-Mohammad-Yehya
