@@ -1,0 +1,32 @@
+name: Build Resume PDF
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'main.tex'
+      - '**.svg'
+
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install Inkscape
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y inkscape
+
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: main.tex
+          args: "-pdf -latexmk -interaction=nonstopmode -shell-escape"
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: Resume-Mohammad-Yehya
+          path: main.pdf
