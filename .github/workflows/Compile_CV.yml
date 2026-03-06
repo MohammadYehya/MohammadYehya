@@ -10,6 +10,8 @@ on:
 jobs:
   build_latex:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -21,8 +23,17 @@ jobs:
           args: "-pdf -interaction=nonstopmode -shell-escape"
           extra_system_packages: "inkscape librsvg"
 
-      - name: Upload PDF Artifact
-        uses: actions/upload-artifact@v4
+      - name: Release Latest PDF
+        uses: softprops/action-gh-release@v2
+        if: github.ref == 'refs/heads/main'
         with:
-          name: Resume-Mohammad-Yehya
-          path: main.pdf
+          tag_name: latest
+          name: Latest Resume Build
+          files: main.pdf
+          draft: false
+          prerelease: false
+          body: |
+            Automated build of Mohammad Yehya Hayati's Resume.
+            Generated on ${{ github.event.head_commit.timestamp }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
