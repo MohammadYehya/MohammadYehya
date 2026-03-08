@@ -24,23 +24,6 @@
   <a href="mailto:mohammad7446@gmail.com"><img src="https://img.shields.io/badge/Gmail-white?&style=for-the-badge&logo=gmail&logoColor=gmail"></a>
 </p>
 
-<!-- https://emigonetworks.com/certification-training/microsoft-certifications/azure-certification-training/azure-900-certification-training for certification svgs-->
-<h2 align="center">Certifications</h2>
-<p align="center">&nbsp;
-  <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/4D41A80F9460F08D?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/microsoft-certified-az-900.svg" width="80px"/></a>
-  <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/5290D9046C16C22?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/microsoft-certified-ai-900.svg" width="80px"/></a>
-  <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/57B97DDDBDD0B602?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/microsoft-certified-dp-900.svg" width="80px"/></a>
-</p>
-<p align="center">&nbsp;
-  <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/9828F17DF3767535?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/microsoft-certified-ab-730.svg" width="100px"/></a>
-  <a href=""><img src="./gitassets/certifications/microsoft-certified-ab-731.svg" width="100px"/></a>
-  <!-- <a href=""><img src="./gitassets/certifications/microsoft-certified-ai-102.svg" width="80px"/></a> -->
-</p>
-<!-- <p align="center">&nbsp;
-  <a href=""><img src="./gitassets/certifications/microsoft-certified-az-305.svg" width="100px"/></a>
-  <a href=""><img src="./gitassets/certifications/microsoft-certified-az-400.svg" width="100px"/></a>
-</p> -->
-
 <h2 align="center">GitHub Stats</h2>
 <p align="center">&nbsp;
   <a href="https://github-readme-stats.vercel.app/api?username=MohammadYehya&theme=bear&show_icons=true&border_color=EFBF04&rank_icon=default&border_radius=30&show=prs_merged&include_all_commits=false&count_private=true">
@@ -51,12 +34,28 @@
   </a>
 </p>
 
+<!-- https://emigonetworks.com/certification-training/microsoft-certifications/azure-certification-training/azure-900-certification-training for certification svgs-->
+<h2 align="center">Certifications</h2>
+<p align="center">&nbsp;
+  <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/4D41A80F9460F08D?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/microsoft-certified-az-900.svg" width="80px"/></a>
+  <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/57B97DDDBDD0B602?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/microsoft-certified-dp-900.svg" width="80px"/></a>
+  <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/5290D9046C16C22?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/microsoft-certified-ai-900.svg" width="80px"/></a>
+  <!-- <a href=""><img src="./gitassets/certifications/microsoft-certified-ai-102.svg" width="80px"/></a> -->
+  <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/9828F17DF3767535?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/microsoft-certified-ab-730.svg" width="90px"/></a>
+  <!-- <a href=""><img src="./gitassets/certifications/microsoft-certified-ab-731.svg" width="100px"/></a> -->
+  <a href=""><img src="./gitassets/certifications/github-certified-gh-900.svg" width="85px"/></a>
+  <!-- <a href=""><img src="./gitassets/certifications/github-certified-gh-100.svg" width="85px"/></a> -->
+  <!-- <a href=""><img src="./gitassets/certifications/github-certified-gh-200.svg" width="85px"/></a> -->
+  <!-- <a href=""><img src="./gitassets/certifications/github-certified-gh-300.svg" width="85px"/></a> -->
+  <!-- <a href=""><img src="./gitassets/certifications/github-certified-gh-500.svg" width="85px"/></a> -->
+  <!-- <a href=""><img src="./gitassets/certifications/microsoft-certified-az-305.svg" width="80px"/></a> -->
+  <!-- <a href=""><img src="./gitassets/certifications/microsoft-certified-az-400.svg" width="80px"/></a> -->
+</p>
+
+
 <h2 align="center">Tech Stack</h2>
 <p align="center">Skilled in building intelligent systems using agentic AI frameworks like LangGraph and CrewAI, RAG pipelines, and modern LLM stacks. Experienced with real-time and distributed architectures, serverless design, and integrating AI into scalable cloud-native backends using tools like Kafka and FastAPI. Comfortable working across APIs, vector search, orchestration tools, and multi-agent workflows.</p>
 <p align="center">For full list of skills, check out <a href="https://mohammadyehya.github.io/Skills">my portfolio</a>.</p>
-
-
-
 
 <h2 align="center">Latest Repos Worked On</h2>
 <p align="center">
