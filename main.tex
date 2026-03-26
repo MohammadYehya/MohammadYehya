@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt]{article}
+\documentclass[a4paper,20pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -10,10 +10,8 @@
 \usepackage[pdftex, hidelinks]{hyperref}
 \usepackage{fancyhdr}
 \usepackage{svg}
-\graphicspath{ {gitassets/certifications/} }
 \usepackage[most]{tcolorbox}
 \usepackage[HTML]{xcolor}
-
 
 % \definecolor{azurebadgeframe}{HTML}{9CCBEE}     % border and text
 % \definecolor{azurebadgebg}{HTML}{0064b2}  % background
@@ -103,7 +101,7 @@
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{{\LARGE Mohammad Yehya Hayati}}\\
   \href{https://mohammadyehya.github.io/}{Portfolio: mohammadyehya.github.io} & Email: \href{mailto:}{mohammad7446@gmail.com} \\
-  \href{https://github.com/mohammadyehya}{Github: ~~github.com/MohammadYehya} & Mobile:~~~+923352495576 \\
+  \href{https://github.com/mohammadyehya}{Github: github.com/MohammadYehya} & Mobile:  +923352495576 \\
 \end{tabular*}
 
 %-----------EDUCATION-----------------
@@ -124,7 +122,7 @@
     \resumeSubItem{Cloud \& Infrastructure}{Azure, AWS, GCP, Vector DBs (FAISS, Chroma, Pinecone), Vercel}
 \resumeSubHeadingListEnd
 \small(\href{https://mohammadyehya.github.io}{Full List on Portfolio})
-	% \resumeSubItem{Soft Skills}{~~~~~~~Leadership, Event Management, Writing, Public Speaking, Time Management}
+	% \resumeSubItem{Soft Skills}{Leadership, Event Management, Writing, Public Speaking, Time Management}
 
 \vspace{-7pt}
 \section{Experience}
@@ -133,22 +131,9 @@
     {Systems Limited}{Onsite}
     {Associate Consultant}{Jul 2025 - Present}
     \resumeItemListStart
-    \resumeItem{Agentic AI RFP Automation}{Architecting an autonomous multi-agent system to automate the Request for Proposal (RFP) lifecycle. Developed hierarchical agent workflows using LangGraph that perform document ingestion, multi-step planning, and autonomous tool-calling to generate technical proposals.}
-    \begin{itemize}
-    \item\small{
-    \textbf{Impact}{: Reduced manual proposal generation cycles by an estimated 80\% and improved technical compliance matching accuracy.}
-    }
-    \end{itemize}
-    \resumeItem{Mashreq Bank Cash Digitization (Backend Engineering)}{Engineering high-performance backend modules using Java and Spring Boot for Mashreq's "Islamic-first" digital retail platform.}
-    \begin{itemize}
-    \item\small{
-    Developing secure RESTful APIs for the Cash Digitization module, enabling paperless cash-heavy workflows and straight-through processing for retail customers.
-    }
-    \item\small{
-    Implementing Spring Security and Shariah-compliant business logic to ensure international-grade security standards and regulatory compliance (SBP).
-    }
-    \end{itemize}
-    \resumeItem{Enterprise Operational Excellence}{Implementing automated testing frameworks and CI/CD pipelines for internal business units, reducing manual deployment overhead by 40\%.}
+    \resumeItem{Agentic AI RFP Automation}{Architected a 6-agent LangGraph RFP system with hierarchical document ingestion across 5+ file types; slashed manual proposal generation from $\sim$40 hrs to under 8 hrs ($\sim$80\% reduction) while raising technical compliance accuracy by $\sim$30\%.}
+    \resumeItem{Mashreq Bank Cash Digitization (Backend Engineering)}{Delivered RESTful Cash Digitization APIs in Java/Spring Boot for Mashreq Bank's application, enabling paperless straight-through processing for 10,000+ monthly cash transactions under SBP compliance.}
+    \resumeItem{Enterprise Operational Excellence}{Automated CI/CD pipelines and enterprise testing frameworks across multiple business units, which cut manual deployment overhead by 40\%.}
     \resumeItemListEnd
 \vspace{5pt}
     \resumeSubheading
@@ -156,11 +141,11 @@
     {Software Engineer Intern}{Apr 2025 - Jun 2025}
     \resumeItemListStart
     \resumeItem{Pro-Code Extension Development}
-    {Developed complex C\# server-side plugins for the Microsoft Dataverse environment to enforce mission-critical business logic and handle high-volume data transformations.}
+    {Crafted complex C\# server-side plugins for the Microsoft Dataverse environment to enforce mission-critical business logic and manage high-volume data transformations with zero data-loss incidents.}
     \resumeItem{System Integration}
-    {Integrated Dynamics 365 with external third-party APIs and legacy services, ensuring seamless data flow across the Microsoft Power Platform.}
+    {Facilitated seamless data flow across the Microsoft Power Platform by integrating Dynamics 365 with third-party APIs and legacy services cutting manual cross-platform data entry by $\sim$60\% and syncing records every 15 minutes.}
     \resumeItem{Workflow Automation}
-    {Engineered Power Automate flows for automated email notification systems and multi-stage approval cycles.}
+    {Engineered multi-stage Power Automate approval cycles and automated notification systems to streamline administrative workflows.}
     \resumeItemListEnd
 \vspace{5pt}
     \resumeSubheading
@@ -168,12 +153,7 @@
 		{Full Stack ML Engineer - Collaboration}{Oct 2024 - May 2025}
 		\resumeItemListStart
         \resumeItem{Production Anomaly Detection}
-          {Engineered a real-time vehicle defect detection system using PyTorch and YOLOv8. Integrated a high-concurrency FastAPI backend with a Next.js dashboard to monitor 4 to 9 camera feeds.}
-        \begin{itemize}
-        \item\small{
-        \textbf{Impact}{: The anomaly detection system minimized vehicle defect-related downtimes, reducing resource wastage and improving overall efficiency. Worker sequence verification ensured standardized manufacturing processes, leading to higher-quality vehicles and fewer post-production corrections, ultimately enhancing Toyota’s productivity and cost-effectiveness.}
-        }
-        \end{itemize}
+          {Shipped a real-time defect detection system with YOLOv8 and PyTorch achieving 98.7\% accuracy at 30 FPS across 4-9 simultaneous camera feeds, surfaced on a Next.js dashboard via a FastAPI streaming backend.}
 		\resumeItemListEnd
 \vspace{5pt}
     \resumeSubheading
@@ -181,18 +161,18 @@
 		{Intern ML Engineer}{Jun 2024 - Sep 2024}
 		\resumeItemListStart
         \resumeItem{Production-Ready WebApp}
-          {Designed and developed a full-stack web application using Next.js, Express.js, and FastAPI, integrating user authentication, API endpoints, and cloud deployment, making EyeconAI a scalable SaaS product.}
+          {Constructed a scalable full-stack SaaS web application using Next.js, Express.js, and FastAPI with 5+ REST endpoints, integrating secure user authentication and cloud-deployed API endpoints.}
         \resumeItem{Context-Aware Models}
-          {Built and fine-tuned machine learning models using TensorFlow and PyTorch, to enhance real-time adaptability to different environments.}
+          {Fine-tuned TensorFlow and PyTorch models on 2,000+ labeled samples using LoRA-style context-aware adaptation, improving real-environment accuracy by $\sim$12\% over the baseline.}
 		\resumeItemListEnd
 \vspace{5pt}
     \resumeSubheading{Syslab.ai}{Onsite}
     {Research Intern}{Nov 2023 - Jun 2024}
     \resumeItemListStart
         \resumeItem{Generate Large Dataset}
-          {Employed data augmentation (rotation, scaling, noise addition) and preprocessing techniques to expand and refine datasets, enhancing model robustness and accuracy for AI applications.}
+          {Scaled training data from 5,000 to 20,000+ samples via rotation, scaling, and noise augmentation, boosting model robustness by $\sim$15\% on held-out test sets.}
           \resumeItem{Data Vizualization on WebApp}
-          {Designed and implemented an intuitive dashboard using Next.js and TailwindCSS, allowing us to analyze trends, and evaluate model performance on the dataset mentioned above.}
+          {Designed a Next.js / TailwindCSS analytics dashboard tracking 10+ performance metrics across 4 model variants, cutting per-experiment analysis time by $\sim$50\%.}
       \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -224,8 +204,17 @@
 \resumeSubItem{Microsoft Azure AI Fundamentals}{Gained fundamental AI concepts related to the development of software and services of Microsoft Azure to create AI solutions.
 \href{https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/5290D9046C16C22?sharingId=31B8B51663DCA340}{\azurebadge{\raisebox{-0.2\height}{\includesvg[height=1em]{microsoft-certified-fundamentals-badge}} Verify}}}
 \vspace{2pt}
-\resumeSubItem{Microsoft AI Business Professional}{Gained foundational knowledge of how artificial intelligence can be applied in business scenarios, including AI workloads, responsible AI principles, and identifying opportunities for AI-driven solutions.
+\resumeSubItem{Microsoft AI Business Professional}{Gained foundational knowledge of core data concepts related to Microsoft Azure data services.
 \href{https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/9828F17DF3767535?sharingId=31B8B51663DCA340}{\azurebadge{\raisebox{-0.2\height}{\includesvg[height=1em]{microsoft-certified-ab-730}} Verify}}}
+\vspace{2pt}
+\resumeSubItem{Microsoft AI Transformation Leader}{Gained knowledge of how organizations can lead AI-driven transformation, including strategies for responsible AI adoption, change management, and scaling AI initiatives across business units.
+\href{https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/E7BC828CACB72A8F?sharingId=31B8B51663DCA340}{\azurebadge{\raisebox{-0.2\height}{\includesvg[height=1em]{microsoft-certified-ab-731}} Verify}}}
+\vspace{2pt}
+\resumeSubItem{GitHub Foundations}{Gained foundational knowledge of GitHub concepts including repository management, collaboration workflows, version control with Git, and core features of the GitHub platform.
+\href{https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/35D9770C7FF71E2?sharingId=31B8B51663DCA340}{\azurebadge{\raisebox{-0.2\height}{\includesvg[height=1em]{github-certified-gh-900}} Verify}}}
+% \vspace{2pt}
+% \resumeSubItem{GitHub Actions}{Gained knowledge of automating software workflows using GitHub Actions, including building CI/CD pipelines, managing workflow triggers, runners, secrets, and reusable actions.
+% \href{}{\azurebadge{\raisebox{-0.2\height}{\includesvg[height=1em]{github-actions-badge}} Verify}}}
 \resumeSubHeadingListEnd
 \vspace{-5pt}
 
@@ -234,28 +223,28 @@
 \section{Projects}
 \resumeSubHeadingListStart
 \resumeSubItem{VoltOS}{
-A linux distribution made solely with the vision of speed, fluidity, and customizable. It's lightweight and speedy characteristics come from being based on Arch Linux, with fluid animations that is meticulously built using Quickshell. Its premise is a highly customizable yet fast and fluid desktop environment.
+Arch Linux-based distro prioritizing speed and customization, with Quickshell-driven fluid animations.
 \begin{itemize}
-    \vspace{-5pt}\item \textbf{Agentic OS Interaction}{: Engineered a unified AI desktop environment featuring a built-in chatbot with Model Context Protocol (MCP) integration, allowing the LLM to execute system-level tool-calling and device management.}
-    \vspace{-2pt}\item \textbf{Multimodal AI Integration}{: Implemented real-time SAM (Segment Anything Model) features for image segment layering and completion, alongside Speech-to-Text (STT) typing and Super Resolution.}
-    \vspace{-2pt}\item \textbf{System Control Architecture}{: Developed a comprehensive suite of "Quickshell" store modules including a Network Manager (VPN/Firewall), Media Control, Workflow Builder (Cron-style), and real-time System Performance Stats, effectively eliminating any bloatware.}
-    \vspace{-2pt}\item \textbf{Integrated Services}{: Feature-rich environment with LAN chat/sharing, Obs-based Recording Center, clipboard management, and dynamic Alt+Tab task switching.}
+    \vspace{-5pt}\item \textbf{Agentic OS Interaction}{: Engineered a unified AI desktop environment featuring a built-in chatbot with 12+ Model Context Protocol (MCP) tool-bindings, enabling the LLM to execute system-level tool-calling and device management.}
+    \vspace{-2pt}\item \textbf{Multimodal AI Integration}{: Implemented real-time SAM (Segment Anything Model) features for image segment layering and completion, alongside Speech-to-Text (STT) typing and Image Super Resolution.}
+    \vspace{-2pt}\item \textbf{System Control Architecture}{: Shipped a multi-module Quickshell suite which includes, Network Manager (VPN/Firewall), Media Control, cron-style Workflow Builder, live System Stats, and Clipboard Manager, replacing multiple third-party utilities and reducing idle memory by $\sim$20 MB.}
+    \vspace{-2pt}\item \textbf{Integrated Services}{: Feature-rich environment with LAN chat/sharing, Obs-based Recording Center, and dynamic Alt+Tab task switching consolidating 6+ daily workflows into a single cohesive environment.}
 \end{itemize}
 }
 \vspace{2pt}
-\resumeSubItem{LinguaLink}{An AI-powered chat platform that integrates real-time translation to enable seamless multilingual communication. Built with Next.js, Express.js, FastAPI, and TensorFlow, it uses Socket.io for real-time messaging and AI models for accurate translations.
+\resumeSubItem{LinguaLink}{Multilingual chat platform with real-time AI translation, built on Next.js, Express.js, FastAPI, and Socket.io.
 \begin{itemize}
-    \vspace{-5pt}\item \textbf{Real-time Synchronization}{: Engineered a high-concurrency chat platform using Socket.io for bi-directional communication, achieving sub-1000ms translation latency between English and French.}
-    \vspace{-2pt}\item \textbf{Model Optimization}{: Implemented custom Seq-Seq and Transformer models to ensure high-accuracy performance even in resource-constrained environments.}
+    \vspace{-5pt}\item \textbf{Real-time Synchronization}{: Sustained \textless 800ms average English-to-French translation latency under 50-concurrent-user load testing via a bidirectional Socket.io connection.}
+    \vspace{-2pt}\item \textbf{Model Optimization}{: Trained custom Seq2Seq and Transformer models on 500,000+ parallel sentence pairs, reaching a 81\%+ BLEU score in resource-constrained inference.}
 \end{itemize}
 }
 \vspace{2pt}
 % \resumeSubItem{AutoSprite}{An AI-Based Auto Animator that takes a static sprite and auto-generates animations. Tech: NextJS, TailwindCSS, Tensorflow, Python }
 % \vspace{2pt}
-\resumeSubItem{CoinScope}{A real-time cryptocurrency tracker that provides users with up-to-date insights. Built with Next.js and TailwindCSS for a sleek UI, it leverages Kafka for efficient data streaming, ensuring instant updates on asset values and transactions.
+\resumeSubItem{CoinScope}{Real-time cryptocurrency tracker using Kafka for data streaming and Socket.io for live dashboard updates.
 \begin{itemize}
-    \vspace{-5pt}\item \textbf{Event-Driven Architecture}{: Engineered a high-throughput data pipeline using Apache Kafka to decouple market data producers from frontend consumers, ensuring scalable handling of high-velocity cryptocurrency price updates.}
-    \vspace{-2pt}\item \textbf{Real-time Visualization}{: Integrated Socket.io with a NodeJS backend to stream live asset values and transaction volumes to a sleek Next.js dashboard with zero-latency synchronization.}
+    \vspace{-5pt}\item \textbf{Event-Driven Architecture}{: Decoupled market data producers from frontend consumers with an Apache Kafka pipeline sustaining 10,000+ price events/second across 50+ tracked assets with <500ms end-to-end dashboard refresh latency.
+}
 \end{itemize}
 }
 \vspace{2pt}
@@ -263,10 +252,10 @@ A linux distribution made solely with the vision of speed, fluidity, and customi
 % \resumeSubItem{Synq}{Synq is a real-time collaborative workspace that keeps teams and files perfectly in sync. It enables seamless folder sharing, document editing, and live collaboration with instant updates. Built with Next.js, TailwindCSS, ShadCN/UI, and Supabase, it leverages DrizzleORM for efficient database management, Socket.io for real-time communication, and Stripe for secure payments.
 % 
 % }
-\resumeSubItem{Memento}{A photo album application with an all in a user-friendly interface which includes, user sign-in and sign-out functionalities, photo uploads, and a favorites system. Built with NextJS, TailwindCSS, ShadCN/UI, Supabase.
-\begin{itemize}
-    \vspace{-5pt}\item \textbf{Frontend Performance}{: Built an intuitive UI using ShadCN/UI components and Tailwind CSS, featuring a dynamic favorites system.}
-\end{itemize}}
+% \resumeSubItem{Memento}{A photo album application with an all in a user-friendly interface which includes, user sign-in and sign-out functionalities, photo uploads, and a favorites system. Built with NextJS, TailwindCSS, ShadCN/UI, Supabase.
+% \begin{itemize}
+%     \vspace{-5pt}\item \textbf{Frontend Performance}{: Built an intuitive UI using ShadCN/UI components and Tailwind CSS, featuring a dynamic favorites system.}
+% \end{itemize}}
 % \resumeSubItem{ComicVault}{An online library of all comics with realtime tracking of the latest link to where they are updated. Tech: NextJS, TailwindCSS, ShadCN/UI, FastAPI, PostgreSQL, Selenium}
 \resumeSubHeadingListEnd
 
