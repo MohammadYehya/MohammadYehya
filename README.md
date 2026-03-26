@@ -28,7 +28,7 @@
 <h2 align="center">Certifications</h2>
 <p align="center">&nbsp;
   <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/35D9770C7FF71E2?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/github-certified-gh-900.svg" width="85px"/></a>
-  <!-- <a href=""><img src="./gitassets/certifications/github-certified-gh-200.svg" width="85px"/></a> -->
+  <a href=""><img src="./gitassets/certifications/github-certified-gh-200.svg" width="85px"/></a>
   <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/4D41A80F9460F08D?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/microsoft-certified-az-900.svg" width="80px"/></a>
   <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/57B97DDDBDD0B602?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/microsoft-certified-dp-900.svg" width="80px"/></a>
   <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/5290D9046C16C22?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/microsoft-certified-ai-900.svg" width="80px"/></a>
