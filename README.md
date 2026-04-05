@@ -4,9 +4,9 @@
 
 - I have a mild obsession with System Design and AI. If there's a new tech out there, I’m probably already trying to break it or make it better.
 - What I'm building:
-  - **[@VoltOS](https://github.com/volt-os)**, fast, customizable Arch-based Linux distro with a focus on performance and fluid UX.
-  - **[@Graphite.click](https://github.com/Graphite-click)**, minimal visual thinking and diagramming tool focused on clarity and structured workflows.
-  - **[@MathCodex](https://github.com/MohammadYehya/MathCodex)**, a tool that exposes structured mathematical tools to LLMs.
+  - **[<mark>@VoltOS</mark>](https://github.com/volt-os)**, fast, customizable Arch-based Linux distro with a focus on performance and fluid UX.
+  - **[<mark>@Graphite.click</mark>](https://github.com/Graphite-click)**, minimal visual thinking and diagramming tool focused on clarity and structured workflows.
+  - **[<mark>@MathCodex</mark>](https://github.com/MohammadYehya/MathCodex)**, a tool that exposes structured mathematical tools to LLMs.
 
 </p>
 
