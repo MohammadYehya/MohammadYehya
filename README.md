@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Mohammad Yehya</h1>
-<img align='right' src="./gitassets/pondfish.gif" height="auto"/>
+<img align='right' src="./gitassets/pondfish.gif" height="220px"/>
 <p align="left">
 
 - I have a mild obsession with System Design and AI. If there's a new tech out there, I’m probably already trying to break it or make it better.
