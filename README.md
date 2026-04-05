@@ -3,7 +3,6 @@
 <p align="left">
 
 - I have a mild obsession with System Design and AI. If there's a new tech out there, I’m probably already trying to break it or make it better.
-- Most of what I build revolves around turning AI ideas into real, usable systems.
 - What I'm building:
   - **[@VoltOS](https://github.com/volt-os)**, fast, customizable Arch-based Linux distro with a focus on performance and fluid UX.
   - **[@Graphite.click](https://github.com/Graphite-click)**, minimal visual thinking and diagramming tool focused on clarity and structured workflows.
