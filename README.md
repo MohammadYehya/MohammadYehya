@@ -42,9 +42,9 @@
   </a>
 </p>
 
-<h2 align="center">Tech Stack</h2>
+<!-- <h2 align="center">Tech Stack</h2>
 <p align="center">Skilled in building intelligent systems using agentic AI frameworks like LangGraph and CrewAI, RAG pipelines, and modern LLM stacks. Experienced with real-time and distributed architectures, serverless design, and integrating AI into scalable cloud-native backends using tools like Kafka and FastAPI. Comfortable working across APIs, vector search, orchestration tools, and multi-agent workflows.</p>
-<p align="center">For full list of skills, check out <a href="https://mohammadyehya.github.io/Skills">my portfolio</a>.</p>
+<p align="center">For full list of skills, check out <a href="https://mohammadyehya.github.io/Skills">my portfolio</a>.</p> -->
 
 <h2 align="center">Latest Repos Worked On</h2>
 <p align="center">
