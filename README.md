@@ -1,14 +1,13 @@
-<!-- <img src="https://github.com/MohammadYehya/MohammadYehya/blob/main/working.gif" alt="" /> -->
 <h1 align="center">Hi 👋, I'm Mohammad Yehya</h1>
 <img align='right' src="./gitassets/pondfish.gif" height="240px"/>
 <p align="left">
 
-- 🤖 I have a mild obsession with System Design and AI. If there's a new tech out there, I’m probably already trying to break it or make it better.
-- 🚀 Future Goals:
-  - 🧠 Develop Generative AI-based Saas (because why not let AI do all the work?)
-  - 🎮 Create an open-source game engine (because reinventing the wheel is my idea of fun).
-  - ⚡ Learn Rust to make things blazingly fast and unreasonably secure.
-- 🖥️ I use Arch btw! mostly so I can fix problems I never had in the first place...
+- I have a mild obsession with System Design and AI. If there's a new tech out there, I’m probably already trying to break it or make it better.
+- Most of what I build revolves around turning AI ideas into real, usable systems.
+- What I'm building:
+  - **[@VoltOS](https://github.com/volt-os)**, fast, customizable Arch-based Linux distro with a focus on performance and fluid UX.
+  - **[@Graphite.click](https://github.com/Graphite-click)**, minimal visual thinking and diagramming tool focused on clarity and structured workflows.
+  - **[@MathCodex](https://github.com/MohammadYehya/MathCodex)**, a tool that exposes structured mathematical tools to LLMs.
 
 </p>
 
