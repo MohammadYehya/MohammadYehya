@@ -1,3 +1,4 @@
+<samp>
 <h1 align="center">Hi 👋, I'm Mohammad Yehya</h1>
 <img align='right' src="./gitassets/pondfish.gif" height="220px"/>
 <p align="left">
@@ -9,6 +10,7 @@
   - **[<mark>@MathCodex</mark>](https://github.com/MohammadYehya/MathCodex)**, a tool that exposes structured mathematical tools to LLMs.
 
 </p>
+<br>
 
 <!-- <p align="center"> 
   <a href="https://linkedin.com/in/mohammad-yehya"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin-white&logoColor=white"/></a>
