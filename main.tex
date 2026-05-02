@@ -131,15 +131,20 @@
   \resumeSubheading
     {Systems Limited}{Onsite}
     {Associate Consultant}{Jul 2025 - Present}
+    
+    
     \vspace{4pt}
     \textit{\small Client Engagement: Mashreq Bank}
+    \vspace{-4pt}
     \resumeItemListStart
     \resumeItem{Chequebook Request Tracking Service}{Engineered an end-to-end chequebook lifecycle management service integrated with the PostEX courier API within a Java/Spring Boot backend, enabling real-time shipment status polling and webhook-driven status reconciliation for 500+ daily chequebook requests, eliminating manual tracking overhead and reducing customer status-inquiry calls by $\sim$25\%.}
     \resumeItem{Multi-Stage Azure DevOps Pipeline Operations}{Operated within a production-grade multi-stage Azure Pipeline infrastructure (Dev $\rightarrow$ UAT $\rightarrow$ Prod), managing microservice deployment promotions across controlled environments with pre-configured approval gates and environment-scoped variable groups, developing hands-on fluency in enterprise CI/CD governance and release coordination across cross-functional squads.}
+	\resumeItem{Dual-Gateway OAuth Token Cache Architecture}{Diagnosed and resolved a silent cache-key collision in the Spring Boot token management layer where a shared \texttt{ConcurrentHashMap} caused \texttt{computeIfAbsent} to return the pre-warmed internal \texttt{LoadingCache} for every external OAuth call, resulting in 100\% of external API requests being authenticated with internal middleware credentials. Refactored the design by introducing a dedicated \texttt{externalTokenCaches} map, cleanly isolating internal and external \texttt{LoadingCache} lifecycles, eliminating cross-flow token contamination, and reducing mean token-resolution latency for external calls by removing the redundant cache-miss fallback path, with zero changes to the existing internal auth flow.}
     \resumeItem{Shared Environment Isolation \& Pipeline Migration}{Resolved cross-squad environment contention on a shared Java codebase by migrating the squad's services into a dedicated repository and regenerating Azure Pipelines YAML configurations, enabling fully independent CI/CD execution and eliminating deployment conflicts across teams.}
     \resumeItemListEnd
     \vspace{4pt}
     \textit{\small Internal Initiatives}
+    \vspace{-4pt}
     \resumeItemListStart
       \resumeItem{Agentic AI RFP Automation}{Architected a 6-agent LangGraph RFP system with hierarchical document ingestion across 5+ file types; slashed manual proposal generation from $\sim$40 hrs to under 8 hrs ($\sim$80\% reduction) while raising technical compliance accuracy by $\sim$30\%.}
       \resumeItem{Enterprise Operational Excellence}{Automated CI/CD pipelines and enterprise testing frameworks across multiple business units, cutting manual deployment overhead by 40\%.}
