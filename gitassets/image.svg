@@ -1,24 +1,67 @@
-<svg fill="none" width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 800 100" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
-        .hover-text {
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-          font-size: 20px;
-          font-weight: bold;
-          color: #24292f;
-          cursor: pointer;
-          transition: color 0.3s ease;
+        .marquee-container {
+          display: flex;
+          align-items: center;
+          overflow: hidden;
+          background: #0d1117; /* GitHub dark mode bg */
+          height: 100px;
           user-select: none;
         }
 
-        /* The core test: Hover state */
-        .hover-text:hover {
-          color: #0969da;
-          text-decoration: underline;
+        .scroll-wrapper {
+          display: flex;
+          width: fit-content;
+          animation: scroll 20s linear infinite;
+        }
+
+        .framework-group {
+          display: flex;
+          gap: 40px;
+          padding-right: 40px; /* Must match gap */
+        }
+
+        .item {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          color: #58a6ff;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+          font-weight: bold;
+          font-size: 18px;
+          white-space: nowrap;
+        }
+
+        @keyframes scroll {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-50%); }
         }
       </style>
-      <div class="hover-text">Hover over me!</div>
+
+      <div class="marquee-container">
+        <div class="scroll-wrapper">
+          <!-- Group 1 -->
+          <div class="framework-group">
+            <div class="item">⚛️ React</div>
+            <div class="item">🖖 Vue</div>
+            <div class="item">▲ Next.js</div>
+            <div class="item">🔥 Svelte</div>
+            <div class="item">🅰️ Angular</div>
+            <div class="item">🚀 Astro</div>
+          </div>
+          <!-- Group 2 (Identical Copy) -->
+          <div class="framework-group">
+            <div class="item">⚛️ React</div>
+            <div class="item">🖖 Vue</div>
+            <div class="item">▲ Next.js</div>
+            <div class="item">🔥 Svelte</div>
+            <div class="item">🅰️ Angular</div>
+            <div class="item">🚀 Astro</div>
+          </div>
+        </div>
+      </div>
     </div>
   </foreignObject>
 </svg>
