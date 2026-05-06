@@ -1,30 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="200" height="40">
+<svg fill="none" width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
-        .container {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          height: 40px;
-          font-family: -apple-system, sans-serif;
-        }
-        .link-text {
-          font-size: 18px;
+        .hover-text {
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+          font-size: 20px;
           font-weight: bold;
-          color: #255DF6; /* Initial Blue */
-          text-decoration: none;
-          transition: color 0.3s ease;
+          color: #24292f;
           cursor: pointer;
+          transition: color 0.3s ease;
+          user-select: none;
         }
-        /* The Magic: Hover State */
-        .link-text:hover {
-          color: #FF4500; /* Changes to Orange-Red on hover */
+
+        /* The core test: Hover state */
+        .hover-text:hover {
+          color: #0969da;
+          text-decoration: underline;
         }
       </style>
-      <div class="container">
-        <a class="link-text">Hover Over Me! ↗</a>
-      </div>
+      <div class="hover-text">Hover over me!</div>
     </div>
   </foreignObject>
 </svg>
