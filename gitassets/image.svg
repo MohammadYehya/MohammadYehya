@@ -1,0 +1,20 @@
+<svg fill="none" viewBox="0 0 400 50" width="400" height="50" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .hover-text {
+          font-family: sans-serif;
+          font-size: 24px;
+          font-weight: bold;
+          color: #333;
+          transition: color 0.3s ease;
+          cursor: pointer;
+        }
+        .hover-text:hover {
+          color: #ff4500;
+        }
+      </style>
+      <div class="hover-text">Hover over me to change color!</div>
+    </div>
+  </foreignObject>
+</svg>
