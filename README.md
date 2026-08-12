@@ -1,58 +1,10 @@
-<!-- Animated pixel koi pond — live GitHub stats on lily pads. Auto-updates daily via .github/workflows/pixel-pond.yml. Source & docs: /pixel-pond -->
-<!-- <p align="center">
-  <img src="./pixel_pond.svg" width="100%" alt="Mohammad Yehya's GitHub stats as an animated pixel-art koi pond"/>
-</p> -->
+<p align="center"><img src="./gitassets/header-top.svg" width="100%" alt="Mohammad Yehya — system design, AI, developer tooling. Currently building VoltOS."><a href="https://linkedin.com/in/mohammad-yehya"><img src="./gitassets/link-linkedin.svg" width="20%" alt="LinkedIn — mohammad-yehya"></a><a href="https://mohammadyehya.github.io"><img src="./gitassets/link-portfolio.svg" width="21.81%" alt="Portfolio — mohammadyehya.github.io"></a><a href="mailto:mohammad7446@gmail.com"><img src="./gitassets/link-email.svg" width="19.54%" alt="Email — mohammad7446@gmail.com"></a><img src="./gitassets/header-fill.svg" width="38.63%" alt=""><img src="./gitassets/header-bottom.svg" width="100%" alt="I have a mild obsession with System Design and AI. If there's a new tech out there, I'm probably already trying to break it or make it better."></p>
 
-<samp>
-<img align="left" src="./gitassets/pondfish.gif" height="220px">
+<p align="center"><a href="https://github.com/volt-os"><img src="./gitassets/card-voltos.svg" width="33.33%" alt="@VoltOS — fast, customizable Arch-based Linux distro with a focus on performance and fluid UX."></a><a href="https://github.com/Graphite-click"><img src="./gitassets/card-graphite.svg" width="33.33%" alt="@Graphite.click — minimal visual thinking and diagramming tool focused on clarity and structured workflows."></a><a href="https://github.com/MohammadYehya/MathCodex"><img src="./gitassets/card-mathcodex.svg" width="33.33%" alt="@MathCodex — a tool that exposes structured mathematical tools to LLMs."></a></p>
 
-### Hey!
-
-→ I'm **Mohammad Yehya**.
-
-→ An open-source developer with a mild obsession for system design and AI.
-
-→ I build **[<mark>@VoltOS</mark>](https://github.com/volt-os)**, a fast, fluid Arch-based distro
-<!-- **[<mark>@Graphite.click</mark>](https://github.com/Graphite-click)**, a minimal diagramming tool\
-**[<mark>@MathCodex</mark>](https://github.com/MohammadYehya/MathCodex)**, structured math for LLMs-->
-
-<br/>
-<br/>
-
-<!-- https://emigonetworks.com/certification-training/microsoft-certifications/azure-certification-training/azure-900-certification-training for certification svgs-->
-<h3 align="center">Certifications</h3>
-<p align="center">&nbsp;
-  <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/35D9770C7FF71E2?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/github-certified-gh-900.svg" width="55px"/></a>
-  <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/D777DC1275EEBC67?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/github-certified-gh-200.svg" width="55px"/></a>
-  <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/4D41A80F9460F08D?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/microsoft-certified-az-900.svg" width="50px"/></a>
-  <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/57B97DDDBDD0B602?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/microsoft-certified-dp-900.svg" width="50px"/></a>
-  <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/5290D9046C16C22?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/microsoft-certified-ai-900.svg" width="50px"/></a>
-  <!-- <a href=""><img src="./gitassets/certifications/microsoft-certified-ai-102.svg" width="50px"/></a> -->
-  <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/9828F17DF3767535?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/microsoft-certified-ab-730.svg" width="60px"/></a>
-  <a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/E7BC828CACB72A8F?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/microsoft-certified-ab-731.svg" width="60px"/></a>
-  <!-- <a href=""><img src="./gitassets/certifications/microsoft-certified-az-305.svg" width="60px"/></a> -->
-  <!-- <a href=""><img src="./gitassets/certifications/microsoft-certified-az-400.svg" width="60px"/></a> -->
-</p>
-
-<h2 align="center">GitHub Stats</h2>
-<p align="center">&nbsp;
-  <a href="https://github-readme-stats.vercel.app/api?username=MohammadYehya&theme=bear&show_icons=true&border_color=EFBF04&rank_icon=default&border_radius=30&show=prs_merged&include_all_commits=false&count_private=true">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=MohammadYehya&theme=bear&show_icons=true&border_color=EFBF04&rank_icon=default&border_radius=30&show=prs_merged&include_all_commits=false&count_private=true" alt="mohammadyehya" />  
-  </a>
-  <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammadYehya&theme=bear&border_color=EFBF04&border_radius=30&card_width=300&include_all_commits=true&count_private=true&layout=compact&langs_count=10&hide=Jupyter%20Notebook,HTML,CSS,Rich%20Text%20Format,TeX">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammadYehya&theme=bear&border_color=EFBF04&border_radius=30&card_width=300&include_all_commits=true&count_private=true&layout=compact&langs_count=10&hide=Jupyter%20Notebook,HTML,CSS,Rich%20Text%20Format,TeX"/>
-  </a>
-</p>
-
-<h2 align="center">Latest Repos Worked On</h2>
 <p align="center">
-<p align="center">
-(Automatically Updates via Github Actions)
+  <img src="./gitassets/stack.svg" alt="Stack — agentic AI frameworks, LangGraph, CrewAI, RAG pipelines, modern LLM stacks, multi-agent workflows, distributed architectures, Kafka, FastAPI, serverless design, vector search, cloud-native backends. For full list of skills, check out my portfolio at mohammadyehya.github.io/Skills." width="100%">
 </p>
-<div align="center">
-<!-- LAST_WORKED_ON_REPOS -->
-<a href=https://github.com/MohammadYehya/mohammadyehya.github.io><img src=https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya&repo=mohammadyehya.github.io&theme=bear&show_icons=true&border_color=EFBF04&border_radius=30 alt=/></a>
-<a href=https://github.com/MohammadYehya/langgraph><img src=https://github-readme-stats.vercel.app/api/pin/?username=mohammadyehya&repo=langgraph&theme=bear&show_icons=true&border_color=EFBF04&border_radius=30 alt=/></a>
-<!-- END_LAST_WORKED_ON_REPOS -->
-</div>
-</p>
+
+<p align="center"><img src="./gitassets/label-certs.svg" alt="Certifications — 07 verified, click a badge to check" width="100%"><a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/35D9770C7FF71E2?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/cert-gh-900.svg" width="14.28%" alt="GitHub Foundations"></a><a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/D777DC1275EEBC67?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/cert-gh-200.svg" width="14.28%" alt="GitHub Actions"></a><a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/4D41A80F9460F08D?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/cert-az-900.svg" width="14.28%" alt="AZ-900 Azure Fundamentals"></a><a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/57B97DDDBDD0B602?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/cert-dp-900.svg" width="14.28%" alt="DP-900 Azure Data Fundamentals"></a><a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/5290D9046C16C22?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/cert-ai-900.svg" width="14.28%" alt="AI-900 Azure AI Fundamentals"></a><a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/9828F17DF3767535?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/cert-ab-730.svg" width="14.28%" alt="AB-730 Applied Skills"></a><a href="https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/E7BC828CACB72A8F?sharingId=31B8B51663DCA340"><img src="./gitassets/certifications/cert-ab-731.svg" width="14.28%" alt="AB-731 Applied Skills"></a></p>
+
