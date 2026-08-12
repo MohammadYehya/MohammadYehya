@@ -14,11 +14,10 @@
 \usepackage[most]{tcolorbox}
 \usepackage[HTML]{xcolor}
 
-% \definecolor{azurebadgeframe}{HTML}{9CCBEE}     % border and text
-% \definecolor{azurebadgebg}{HTML}{0064b2}  % background
-\definecolor{azurebadgeframe}{HTML}{444444}     % border and text
-\definecolor{azurebadgebg}{HTML}{ffffff}  % background
-
+% \definecolor{azurebadgeframe}{HTML}{9CCBEE} % border and text
+% \definecolor{azurebadgebg}{HTML}{0064b2} % background
+\definecolor{azurebadgeframe}{HTML}{444444} % border and text
+\definecolor{azurebadgebg}{HTML}{ffffff} % background
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -76,7 +75,6 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
-
 \newcommand{\azurebadge}[1]{%
   \tcbox[
     on line,
@@ -94,7 +92,7 @@
 }
 
 %-----------------------------
-%%%%%%  CV STARTS HERE  %%%%%%
+%%%%%% CV STARTS HERE %%%%%%
 
 \begin{document}
 
@@ -102,7 +100,7 @@
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{{\LARGE Mohammad Yehya Hayati}}\\
   \href{https://mohammadyehya.github.io/}{Portfolio: mohammadyehya.github.io} & Email: \href{mailto:}{mohammad7446@gmail.com} \\
-  \href{https://github.com/mohammadyehya}{Github: github.com/MohammadYehya} & Mobile:  +923352495576 \\
+  \href{https://github.com/mohammadyehya}{Github: github.com/MohammadYehya} & Mobile: +923352495576 \\
 \end{tabular*}
 
 %-----------EDUCATION-----------------
@@ -110,159 +108,185 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {National University of Computer \& Emerging Sciences}{Karachi, Pakistan}
-      {Bachelor of Science - Computer Science;  \textbf{GPA: 3.90/4.00}}{Aug 2021 - Jun 2025}
-    \resumeSubHeadingListEnd
-	    
+      {Bachelor of Science - Computer Science; \textbf{GPA: 3.90/4.00}}{Aug 2021 - Jun 2025}
+  \resumeSubHeadingListEnd
+
 \vspace{-9pt}
 \section{Skills Summary}
 	\resumeSubHeadingListStart
-    \resumeSubItem{Programming Languages}{Python, JavaScript / TypeScript, C/C++, Rust, SQL, Bash, PowerFX}
-    \resumeSubItem{AI/ML Frameworks \& Tools}{Agentic RAG, Multi-Agent Orchestration (LangGraph, LangChain, CrewAI), MCP (Model Context Protocol), Fine-tuning (LoRA/QLoRA), Transformers, Computer Vision, TensorFlow, PyTorch, Scikit-Learn}
-    \resumeSubItem{Production \& MLOps}{LLM Evaluation (RAGAS, DeepEval), Experiment Tracking (MLflow, W\&B), Docker, Kubernetes}
-    \resumeSubItem{Web \& Backend Stack}{FastAPI, Next.js, Node.js, Express.js, Socket.IO, TailwindCSS}
-    \resumeSubItem{Cloud \& Infrastructure}{Azure, AWS, GCP, Vector DBs (FAISS, Chroma, Pinecone), Vercel}
-\resumeSubHeadingListEnd
-\small(\href{https://mohammadyehya.github.io}{Full List on Portfolio})
+	\resumeSubItem{Programming Languages}{Python, JavaScript / TypeScript, C/C++, Rust, SQL, Bash, PowerFX}
+	\resumeSubItem{AI/ML Frameworks \& Tools}{Agentic RAG, Multi-Agent Orchestration (LangGraph, LangChain, CrewAI), MCP (Model Context Protocol), Fine-tuning (LoRA/QLoRA), Transformers, Computer Vision, TensorFlow, PyTorch, Scikit-Learn}
+	\resumeSubItem{Production \& MLOps}{LLM Evaluation (RAGAS, DeepEval), Experiment Tracking (MLflow, W\&B), Docker, Kubernetes}
+	\resumeSubItem{Web \& Backend Stack}{FastAPI, Next.js, Node.js, Express.js, Socket.IO, TailwindCSS}
+	\resumeSubItem{Cloud \& Infrastructure}{Azure, AWS, GCP, Vector DBs (FAISS, Chroma, Pinecone), Vercel}
+	\resumeSubHeadingListEnd
+	\small(\href{https://mohammadyehya.github.io}{Full List on Portfolio})
 	% \resumeSubItem{Soft Skills}{Leadership, Event Management, Writing, Public Speaking, Time Management}
 
 \vspace{-7pt}
 \section{Experience}
   \resumeSubHeadingListStart
-  \resumeSubheading
-    {Systems Limited}{Onsite}
-    {Associate Consultant}{Jul 2025 - Present}
-    \resumeItemListStart
-    \resumeItem{Agentic AI RFP Automation}{Architected a 6-agent LangGraph RFP system with hierarchical document ingestion across 5+ file types; slashed manual proposal generation from $\sim$40 hrs to under 8 hrs ($\sim$80\% reduction) while raising technical compliance accuracy by $\sim$30\%.}
-    \resumeItem{Mashreq Bank Cash Digitization (Backend Engineering)}{Delivered RESTful Cash Digitization APIs in Java/Spring Boot for Mashreq Bank's application, enabling paperless straight-through processing for 10,000+ monthly cash transactions under SBP compliance.}
-    \resumeItem{Enterprise Operational Excellence}{Automated CI/CD pipelines and enterprise testing frameworks across multiple business units, which cut manual deployment overhead by 40\%.}
-    \resumeItemListEnd
-\vspace{5pt}
+
     \resumeSubheading
-    {Imperium Dynamics}{Onsite}
-    {Software Engineer Intern}{Apr 2025 - Jun 2025}
-    \resumeItemListStart
-    \resumeItem{Pro-Code Extension Development}
-    {Crafted complex C\# server-side plugins for the Microsoft Dataverse environment to enforce mission-critical business logic and manage high-volume data transformations with zero data-loss incidents.}
-    \resumeItem{System Integration}
-    {Facilitated seamless data flow across the Microsoft Power Platform by integrating Dynamics 365 with third-party APIs and legacy services cutting manual cross-platform data entry by $\sim$60\% and syncing records every 15 minutes.}
-    \resumeItem{Workflow Automation}
-    {Engineered multi-stage Power Automate approval cycles and automated notification systems to streamline administrative workflows.}
-    \resumeItemListEnd
-\vspace{5pt}
-    \resumeSubheading
-		{Toyota Indus Motor Company}{Remote}
-		{Full Stack ML Engineer - Collaboration}{Oct 2024 - May 2025}
-		\resumeItemListStart
-        \resumeItem{Production Anomaly Detection}
-          {Shipped a real-time defect detection system with YOLOv8 and PyTorch achieving 98.7\% accuracy at 30 FPS across 4-9 simultaneous camera feeds, surfaced on a Next.js dashboard via a FastAPI streaming backend.}
-		\resumeItemListEnd
-\vspace{5pt}
-    \resumeSubheading
-		{EyeconAI}{Onsite}
-		{Intern ML Engineer}{Jun 2024 - Sep 2024}
-		\resumeItemListStart
-        \resumeItem{Production-Ready WebApp}
-          {Constructed a scalable full-stack SaaS web application using Next.js, Express.js, and FastAPI with 5+ REST endpoints, integrating secure user authentication and cloud-deployed API endpoints.}
-        \resumeItem{Context-Aware Models}
-          {Fine-tuned TensorFlow and PyTorch models on 2,000+ labeled samples using LoRA-style context-aware adaptation, improving real-environment accuracy by $\sim$12\% over the baseline.}
-		\resumeItemListEnd
-\vspace{5pt}
-    \resumeSubheading{Syslab.ai}{Onsite}
-    {Research Intern}{Nov 2023 - Jun 2024}
-    \resumeItemListStart
-        \resumeItem{Generate Large Dataset}
-          {Scaled training data from 5,000 to 20,000+ samples via rotation, scaling, and noise augmentation, boosting model robustness by $\sim$15\% on held-out test sets.}
-          \resumeItem{Data Vizualization on WebApp}
-          {Designed a Next.js / TailwindCSS analytics dashboard tracking 10+ performance metrics across 4 model variants, cutting per-experiment analysis time by $\sim$50\%.}
+      {Systems Limited}{Onsite}
+      {Associate Consultant}{Jul 2025 - Present}
+      \vspace{4pt}
+      \textit{\small Client Engagement: Mashreq Bank}
+      \vspace{-4pt}
+      \resumeItemListStart
+        \resumeItem{Chequebook Request Tracking Service}{Engineered an end-to-end chequebook lifecycle management service integrated with the PostEX courier API within a Java/Spring Boot backend, enabling real-time shipment status polling and webhook-driven status reconciliation for 500+ daily chequebook requests, eliminating manual tracking overhead and reducing customer status-inquiry calls by $\sim$25\%.}
+        \resumeItem{Multi-Stage Azure DevOps Pipeline Operations}{Operated within a production-grade multi-stage Azure Pipeline infrastructure (Dev $\rightarrow$ UAT $\rightarrow$ Prod), managing microservice deployment promotions across controlled environments with pre-configured approval gates and environment-scoped variable groups, developing hands-on fluency in enterprise CI/CD governance and release coordination across cross-functional squads.}
+        \resumeItem{Dual-Gateway OAuth Token Cache Architecture}{Diagnosed and resolved a silent cache-key collision in the Spring Boot token management layer where a shared \texttt{ConcurrentHashMap} caused \texttt{computeIfAbsent} to return the pre-warmed internal \texttt{LoadingCache} for every external OAuth call, resulting in 100\% of external API requests being authenticated with internal middleware credentials. Refactored the design by introducing a dedicated \texttt{externalTokenCaches} map, cleanly isolating internal and external \texttt{LoadingCache} lifecycles, eliminating cross-flow token contamination, and reducing mean token-resolution latency for external calls by removing the redundant cache-miss fallback path, with zero changes to the existing internal auth flow.}
+        \resumeItem{Shared Environment Isolation \& Pipeline Migration}{Resolved cross-squad environment contention on a shared Java codebase by migrating the squad's services into a dedicated repository and regenerating Azure Pipelines YAML configurations, enabling fully independent CI/CD execution and eliminating deployment conflicts across teams.}
+      \resumeItemListEnd
+      \vspace{4pt}
+      \textit{\small Internal Initiatives}
+      \vspace{-4pt}
+      \resumeItemListStart
+        \resumeItem{Agentic AI RFP Automation}{Architected a 6-agent LangGraph RFP system with hierarchical document ingestion across 5+ file types; slashed manual proposal generation from $\sim$40 hrs to under 8 hrs ($\sim$80\% reduction) while raising technical compliance accuracy by $\sim$30\%.}
+        \resumeItem{Enterprise Operational Excellence}{Automated CI/CD pipelines and enterprise testing frameworks across multiple business units, cutting manual deployment overhead by 40\%.}
       \resumeItemListEnd
 
-\resumeSubHeadingListEnd
+    \vspace{5pt}
+
+    \resumeSubheading
+      {Imperium Dynamics}{Onsite}
+      {Software Engineer Intern}{Apr 2025 - Jun 2025}
+      \resumeItemListStart
+        \resumeItem{Pro-Code Extension Development}
+        {Crafted complex C\# server-side plugins for the Microsoft Dataverse environment to enforce mission-critical business logic and manage high-volume data transformations with zero data-loss incidents.}
+        \resumeItem{System Integration}
+        {Facilitated seamless data flow across the Microsoft Power Platform by integrating Dynamics 365 with third-party APIs and legacy services cutting manual cross-platform data entry by $\sim$60\% and syncing records every 15 minutes.}
+        \resumeItem{Workflow Automation}
+        {Engineered multi-stage Power Automate approval cycles and automated notification systems to streamline administrative workflows.}
+      \resumeItemListEnd
+
+    \vspace{5pt}
+
+    \resumeSubheading{Syslab.ai}{Onsite}
+      {Research Assistant \& Full Stack Machine Learning Engineer}{Nov 2023 - Sep 2024}
+      \vspace{4pt}
+      \textit{\small Syslab Research Lab}
+      \vspace{-4pt}
+      \resumeItemListStart
+        \resumeItem{Generate Large Dataset}
+        {Scaled training data from 5,000 to 20,000+ samples via rotation, scaling, and noise augmentation, boosting model robustness by $\sim$15\% on held-out test sets.}
+        \resumeItem{Data Vizualization on WebApp}
+        {Designed a Next.js / TailwindCSS analytics dashboard tracking 10+ performance metrics across 4 model variants, cutting per-experiment analysis time by $\sim$50\%.}
+      \resumeItemListEnd
+      \vspace{4pt}
+      \textit{\small EyeconAI}
+      \vspace{-4pt}
+      \resumeItemListStart
+        \resumeItem{Production-Ready WebApp}
+        {Constructed a scalable full-stack SaaS web application using Next.js, Express.js, and FastAPI with 5+ REST endpoints, integrating secure user authentication and cloud-deployed API endpoints.}
+        \resumeItem{Context-Aware Models}
+        {Fine-tuned TensorFlow and PyTorch models on 2,000+ labeled samples using LoRA-style context-aware adaptation, improving real-environment accuracy by $\sim$12\% over the baseline.}
+      \resumeItemListEnd
+      \vspace{4pt}
+      \textit{\small Toyota Indus Motor Company}
+      \vspace{-4pt}
+      \resumeItemListStart
+        \resumeItem{Production Anomaly Detection}
+        {Shipped a real-time defect detection system with YOLOv8 and PyTorch achieving 98.7\% accuracy at 30 FPS across 4-9 simultaneous camera feeds, surfaced on a Next.js dashboard via a FastAPI streaming backend.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
 
 %-----------PUBLICATIONS-----------------
 \vspace{5pt}
 \section{Research Publications}
-\resumeSubHeadingListStart
-\resumeSubItem{Context-Aware Detection of Mixed Critical Events using Video Classification}{Published on arxiv - \href{https://arxiv.org/abs/2411.15773v1}{arxiv.org/abs/2411.15773v1}
-\begin{itemize}
-    \vspace{-5pt} \item {Developed a novel context-aware system for smart city safety, achieving 99.25\% F1-score on traffic incident detection and 91.59\% F1-score on fire detection.}
-    \vspace{-2pt} \item {Utilized DenseNet-Transformer architectures to process spatial-temporal features, outperforming standard CNN baselines by 3\% in prediction accuracy.}
-\end{itemize}
-}
-\vspace{-1pt}
-% \resumeSubItem{ConData}{A context-aware multi-incidents dataset to support video classification research. Work in Progress paper to be published by Data in Brief.}
-\resumeSubHeadingListEnd
-\vspace{-5pt}
+  \resumeSubHeadingListStart
+	\resumeSubItem{Context-Aware Detection of Mixed Critical Events using Video Classification}{Published on arxiv - \href{https://arxiv.org/abs/2411.15773v1}{arxiv.org/abs/2411.15773v1}
+	\begin{itemize}
+        \vspace{-5pt} \item {Developed a novel context-aware system for smart city safety, achieving 99.25\% F1-score on traffic incident detection and 91.59\% F1-score on fire detection.}
+        \vspace{-2pt} \item {Utilized DenseNet-Transformer architectures to process spatial-temporal features, outperforming standard CNN baselines by 3\% in prediction accuracy.}
+	\end{itemize}
+	}
+	\vspace{-1pt}
+	% \resumeSubItem{ConData}{A context-aware multi-incidents dataset to support video classification research. Work in Progress paper to be published by Data in Brief.}
+  \resumeSubHeadingListEnd
+  \vspace{-5pt}
+
+%-----------OPEN SOURCE-----------------
+\section{Open Source Contributions}
+  \resumeSubHeadingListStart
+	\resumeSubItem{LangChain - LangGraph}{Contributed a merged fix (\href{https://github.com/langchain-ai/langgraph/pull/5999}{PR \#5999}) to the official Human-in-the-Loop documentation, repairing a broken Human-in-the-Loop example: replaced the deprecated \texttt{interrupt\_id} attribute with \texttt{id}, corrected two undefined-variable references (\texttt{parent.get\_state} $\rightarrow$ \texttt{graph.get\_state}, \texttt{get\_state(thread\_config)} $\rightarrow$ \texttt{get\_state(config)}), and aligned the print statement with the actual interrupt payload, restoring the runnable ``resume-multiple-interrupts'' code snippet.}
+  \resumeSubHeadingListEnd
+  \vspace{-5pt}
 
 %-----------CERTIFICATIONS-----------------
 \vspace{-2pt}
 \section{Certifications}
-\resumeSubHeadingListStart
-\resumeSubItem{Microsoft Azure Fundamentals}{Gained foundational knowledge of cloud concepts, core Azure services, plus Azure management and governance features and tools. \href{https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/4D41A80F9460F08D?sharingId=31B8B51663DCA340}{\azurebadge{\raisebox{-0.2\height}{\includesvg[height=1em]{microsoft-certified-fundamentals-badge}} Verify}}}
-\vspace{2pt}
-\resumeSubItem{Microsoft Azure Data Fundamentals}{Gained foundational knowledge of core data concepts related to Microsoft Azure data services.
-\href{https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/57B97DDDBDD0B602?sharingId=31B8B51663DCA340}{\azurebadge{\raisebox{-0.2\height}{\includesvg[height=1em]{microsoft-certified-fundamentals-badge}} Verify}}}
-\vspace{2pt}
-\resumeSubItem{Microsoft Azure AI Fundamentals}{Gained fundamental AI concepts related to the development of software and services of Microsoft Azure to create AI solutions.
-\href{https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/5290D9046C16C22?sharingId=31B8B51663DCA340}{\azurebadge{\raisebox{-0.2\height}{\includesvg[height=1em]{microsoft-certified-fundamentals-badge}} Verify}}}
-\vspace{2pt}
-\resumeSubItem{Microsoft AI Business Professional}{Gained foundational knowledge of how artificial intelligence can be applied in business scenarios, including AI workloads, responsible AI principles, and identifying opportunities for AI-driven solutions.
-\href{https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/9828F17DF3767535?sharingId=31B8B51663DCA340}{\azurebadge{\raisebox{-0.2\height}{\includesvg[height=1em]{microsoft-certified-ab-730}} Verify}}}
-\vspace{2pt}
-\resumeSubItem{Microsoft AI Transformation Leader}{Gained knowledge of how organizations can lead AI-driven transformation, including strategies for responsible AI adoption, change management, and scaling AI initiatives across business units.
-\href{https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/E7BC828CACB72A8F?sharingId=31B8B51663DCA340}{\azurebadge{\raisebox{-0.2\height}{\includesvg[height=1em]{microsoft-certified-ab-731}} Verify}}}
-\vspace{2pt}
-\resumeSubItem{GitHub Foundations}{Gained foundational knowledge of GitHub concepts including repository management, collaboration workflows, version control with Git, and core features of the GitHub platform.
-\href{https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/35D9770C7FF71E2?sharingId=31B8B51663DCA340}{\azurebadge{\raisebox{-0.2\height}{\includesvg[height=1em]{github-certified-gh-900}} Verify}}}
-% \vspace{2pt}
-% \resumeSubItem{GitHub Actions}{Gained knowledge of automating software workflows using GitHub Actions, including building CI/CD pipelines, managing workflow triggers, runners, secrets, and reusable actions.
-% \href{}{\azurebadge{\raisebox{-0.2\height}{\includesvg[height=1em]{github-actions-badge}} Verify}}}
-\resumeSubHeadingListEnd
-\vspace{-5pt}
+  \resumeSubHeadingListStart
+	\resumeSubItem{Microsoft Azure Fundamentals}{Gained foundational knowledge of cloud concepts, core Azure services, plus Azure management and governance features and tools. \href{https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/4D41A80F9460F08D?sharingId=31B8B51663DCA340}{\azurebadge{\raisebox{-0.2\height}{\includesvg[height=1em]{microsoft-certified-fundamentals-badge}} Verify}}}
+	\vspace{2pt}
+	\resumeSubItem{Microsoft Azure Data Fundamentals}{Gained foundational knowledge of core data concepts related to Microsoft Azure data services.
+	\href{https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/57B97DDDBDD0B602?sharingId=31B8B51663DCA340}{\azurebadge{\raisebox{-0.2\height}{\includesvg[height=1em]{microsoft-certified-fundamentals-badge}} Verify}}}
+	\vspace{2pt}
+	\resumeSubItem{Microsoft Azure AI Fundamentals}{Gained fundamental AI concepts related to the development of software and services of Microsoft Azure to create AI solutions.
+	\href{https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/5290D9046C16C22?sharingId=31B8B51663DCA340}{\azurebadge{\raisebox{-0.2\height}{\includesvg[height=1em]{microsoft-certified-fundamentals-badge}} Verify}}}
+	\vspace{2pt}
+	\resumeSubItem{Microsoft AI Business Professional}{Gained foundational knowledge of how artificial intelligence can be applied in business scenarios, including AI workloads, responsible AI principles, and identifying opportunities for AI-driven solutions.
+	\href{https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/9828F17DF3767535?sharingId=31B8B51663DCA340}{\azurebadge{\raisebox{-0.2\height}{\includesvg[height=1em]{microsoft-certified-ab-730}} Verify}}}
+	\vspace{2pt}
+	\resumeSubItem{Microsoft AI Transformation Leader}{Gained knowledge of how organizations can lead AI-driven transformation, including strategies for responsible AI adoption, change management, and scaling AI initiatives across business units.
+	\href{https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/E7BC828CACB72A8F?sharingId=31B8B51663DCA340}{\azurebadge{\raisebox{-0.2\height}{\includesvg[height=1em]{microsoft-certified-ab-731}} Verify}}}
+	\vspace{2pt}
+	\resumeSubItem{GitHub Foundations}{Gained foundational knowledge of GitHub concepts including repository management, collaboration workflows, version control with Git, and core features of the GitHub platform.
+	\href{https://learn.microsoft.com/api/credentials/share/en-us/MohammadYehya/35D9770C7FF71E2?sharingId=31B8B51663DCA340}{\azurebadge{\raisebox{-0.2\height}{\includesvg[height=1em]{github-certified-gh-900}} Verify}}}
+	\vspace{2pt}
+	\resumeSubItem{GitHub Actions}{Gained knowledge of automating software workflows using GitHub Actions, including building CI/CD pipelines, managing workflow triggers, runners, secrets, and reusable actions.
+	\href{}{\azurebadge{\raisebox{-0.2\height}{\includesvg[height=1em]{github-certified-gh-200}} Verify}}}
+  \resumeSubHeadingListEnd
+  \vspace{-5pt}
 
 %-----------PROJECTS-----------------
 \vspace{1pt}
 \section{Projects}
-\resumeSubHeadingListStart
-\resumeSubItem{VoltOS}{
-Arch Linux-based distro prioritizing speed and customization, with Quickshell-driven fluid animations.
-\begin{itemize}
-    \vspace{-5pt}\item \textbf{Agentic OS Interaction}{: Engineered a unified AI desktop environment featuring a built-in chatbot with 12+ Model Context Protocol (MCP) tool-bindings, enabling the LLM to execute system-level tool-calling and device management.}
-    \vspace{-2pt}\item \textbf{Multimodal AI Integration}{: Implemented real-time SAM (Segment Anything Model) features for image segment layering and completion, alongside Speech-to-Text (STT) typing and Image Super Resolution.}
-    \vspace{-2pt}\item \textbf{System Control Architecture}{: Shipped a multi-module Quickshell suite which includes, Network Manager (VPN/Firewall), Media Control, cron-style Workflow Builder, live System Stats, and Clipboard Manager, replacing multiple third-party utilities and reducing idle memory by $\sim$20 MB.}
-    \vspace{-2pt}\item \textbf{Integrated Services}{: Feature-rich environment with LAN chat/sharing, Obs-based Recording Center, and dynamic Alt+Tab task switching consolidating 6+ daily workflows into a single cohesive environment.}
-\end{itemize}
-}
-\vspace{2pt}
-\resumeSubItem{LinguaLink}{Multilingual chat platform with real-time AI translation, built on Next.js, Express.js, FastAPI, and Socket.io.
-\begin{itemize}
-    \vspace{-5pt}\item \textbf{Real-time Synchronization}{: Sustained \textless 800ms average English-to-French translation latency under 50-concurrent-user load testing via a bidirectional Socket.io connection.}
-    \vspace{-2pt}\item \textbf{Model Optimization}{: Trained custom Seq2Seq and Transformer models on 500,000+ parallel sentence pairs, reaching a 81\%+ BLEU score in resource-constrained inference.}
-\end{itemize}
-}
-\vspace{2pt}
-% \resumeSubItem{AutoSprite}{An AI-Based Auto Animator that takes a static sprite and auto-generates animations. Tech: NextJS, TailwindCSS, Tensorflow, Python }
-% \vspace{2pt}
-\resumeSubItem{CoinScope}{Real-time cryptocurrency tracker using Kafka for data streaming and Socket.io for live dashboard updates.
-\begin{itemize}
-    \vspace{-5pt}\item \textbf{Event-Driven Architecture}{: Decoupled market data producers from frontend consumers with an Apache Kafka pipeline sustaining 10,000+ price events/second across 50+ tracked assets with <500ms end-to-end dashboard refresh latency.
-}
-\end{itemize}
-}
-\vspace{2pt}
-% \resumeSubItem{GridForge}{A game engine built with SDL2 and OpenGL, designed to streamline the development of isometric games. Developed in C++ with CMake for build management, it provides optimized rendering and efficient resource handling for smooth game performance.}
-% \resumeSubItem{Synq}{Synq is a real-time collaborative workspace that keeps teams and files perfectly in sync. It enables seamless folder sharing, document editing, and live collaboration with instant updates. Built with Next.js, TailwindCSS, ShadCN/UI, and Supabase, it leverages DrizzleORM for efficient database management, Socket.io for real-time communication, and Stripe for secure payments.
-% 
-% }
-% \resumeSubItem{Memento}{A photo album application with an all in a user-friendly interface which includes, user sign-in and sign-out functionalities, photo uploads, and a favorites system. Built with NextJS, TailwindCSS, ShadCN/UI, Supabase.
-% \begin{itemize}
-%     \vspace{-5pt}\item \textbf{Frontend Performance}{: Built an intuitive UI using ShadCN/UI components and Tailwind CSS, featuring a dynamic favorites system.}
-% \end{itemize}}
-% \resumeSubItem{ComicVault}{An online library of all comics with realtime tracking of the latest link to where they are updated. Tech: NextJS, TailwindCSS, ShadCN/UI, FastAPI, PostgreSQL, Selenium}
-\resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \resumeSubItem{VoltOS}{
+    Arch Linux-based distro prioritizing speed and customization, with Quickshell-driven fluid animations.
+	\begin{itemize}
+        \vspace{-5pt}\item \textbf{Agentic OS Interaction}{: Engineered a unified AI desktop environment featuring a built-in chatbot with 12+ Model Context Protocol (MCP) tool-bindings, enabling the LLM to execute system-level tool-calling and device management.}
+        \vspace{-2pt}\item \textbf{Multimodal AI Integration}{: Implemented real-time SAM (Segment Anything Model) features for image segment layering and completion, alongside Speech-to-Text (STT) typing and Image Super Resolution.}
+        \vspace{-2pt}\item \textbf{System Control Architecture}{: Shipped a multi-module Quickshell suite which includes, Network Manager (VPN/Firewall), Media Control, cron-style Workflow Builder, live System Stats, and Clipboard Manager, replacing multiple third-party utilities and reducing idle memory by $\sim$20 MB.}
+        \vspace{-2pt}\item \textbf{Integrated Services}{: Feature-rich environment with LAN chat/sharing, Obs-based Recording Center, and dynamic Alt+Tab task switching consolidating 6+ daily workflows into a single cohesive environment.}
+	\end{itemize}
+	}
+	\vspace{2pt}
+	\resumeSubItem{LinguaLink}{Multilingual chat platform with real-time AI translation, built on Next.js, Express.js, FastAPI, and Socket.io.
+	\begin{itemize}
+        \vspace{-5pt}\item \textbf{Real-time Synchronization}{: Sustained \textless 800ms average English-to-French translation latency under 50-concurrent-user load testing via a bidirectional Socket.io connection.}
+        \vspace{-2pt}\item \textbf{Model Optimization}{: Trained custom Seq2Seq and Transformer models on 500,000+ parallel sentence pairs, reaching a 81\%+ BLEU score in resource-constrained inference.}
+	\end{itemize}
+	}
+	\vspace{2pt}
+	% \resumeSubItem{AutoSprite}{An AI-Based Auto Animator that takes a static sprite and auto-generates animations. Tech: NextJS, TailwindCSS, Tensorflow, Python }
+	% \vspace{2pt}
+	\resumeSubItem{CoinScope}{Real-time cryptocurrency tracker using Kafka for data streaming and Socket.io for live dashboard updates.
+	\begin{itemize}
+        \vspace{-5pt}\item \textbf{Event-Driven Architecture}{: Decoupled market data producers from frontend consumers with an Apache Kafka pipeline sustaining 10,000+ price events/second across 50+ tracked assets with <500ms end-to-end dashboard refresh latency.
+        }
+	\end{itemize}
+	}
+	\vspace{2pt}
+	% \resumeSubItem{GridForge}{A game engine built with SDL2 and OpenGL, designed to streamline the development of isometric games. Developed in C++ with CMake for build management, it provides optimized rendering and efficient resource handling for smooth game performance.}
+	% \resumeSubItem{Synq}{Synq is a real-time collaborative workspace that keeps teams and files perfectly in sync. It enables seamless folder sharing, document editing, and live collaboration with instant updates. Built with Next.js, TailwindCSS, ShadCN/UI, and Supabase, it leverages DrizzleORM for efficient database management, Socket.io for real-time communication, and Stripe for secure payments.
+	%
+	% }
+	% \resumeSubItem{Memento}{A photo album application with an all in a user-friendly interface which includes, user sign-in and sign-out functionalities, photo uploads, and a favorites system. Built with NextJS, TailwindCSS, ShadCN/UI, Supabase.
+	% \begin{itemize}
+    %     \vspace{-5pt}\item \textbf{Frontend Performance}{: Built an intuitive UI using ShadCN/UI components and Tailwind CSS, featuring a dynamic favorites system.}
+	% \end{itemize}}
+	% \resumeSubItem{ComicVault}{An online library of all comics with realtime tracking of the latest link to where they are updated. Tech: NextJS, TailwindCSS, ShadCN/UI, FastAPI, PostgreSQL, Selenium}
+  \resumeSubHeadingListEnd
 
 %-----------Awards-----------------
 \section{Honors and Awards}
 \begin{description}[font=$\bullet$]
+
 \item {Graduated Summa Cum Laude (Top 0.5\%) - Jun 2025}
 \vspace{-5pt}
 \item {Placed in Rector's List (4 SGPA) x 3 - Jan 2022, Jan 2023, May 2023}
@@ -285,14 +309,13 @@ Arch Linux-based distro prioritizing speed and customization, with Quickshell-dr
 % \section{Volunteer Experience}
 %   \resumeSubHeadingListStart
 % 	\resumeSubheading
-%     {Community Lead at Developer Student Clubs NSEC}{Kolkata, India}
-%     {Conducted online and offline technical \& soft-skills training impacting over 3000 students.}{Jan 2019 - Present}
-% \vspace{5pt}
-%     % \vspace{10pt}\textbf{\large{Community Experience}}
-%     \resumeSubheading
-%     {Event Organizer at Google Developers Group Kolkata}{Kolkata, India}
-%     {Organized events, conducted workshops and delivered workshops reaching over 7000 developers.}{Jan 2018 - Present}
-
-% \resumeSubHeadingListEnd
+% 	  {Community Lead at Developer Student Clubs NSEC}{Kolkata, India}
+% 	  {Conducted online and offline technical \& soft-skills training impacting over 3000 students.}{Jan 2019 - Present}
+% 	\vspace{5pt}
+% 	% \vspace{10pt}\textbf{\large{Community Experience}}
+% 	\resumeSubheading
+% 	  {Event Organizer at Google Developers Group Kolkata}{Kolkata, India}
+% 	  {Organized events, conducted workshops and delivered workshops reaching over 7000 developers.}{Jan 2018 - Present}
+%   \resumeSubHeadingListEnd
 
 \end{document}
