@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293 216" width="293" height="216" role="img" aria-label="@MathCodex: a tool that exposes structured mathematical tools to LLMs.">
   <path d="M0,0 H281 A12,12 0 0 1 293,12 V204 A12,12 0 0 1 281,216 H0 Z" fill="#0e0d0b"/>
-  <rect x="0" y="0" width="1" height="216" fill="#EFBF04" fill-opacity="0.16"/>
+  <rect x="0" y="44" width="1" height="172" fill="#EFBF04" fill-opacity="0.16"/>
   <rect x="0" y="43" width="293" height="1" fill="#EFBF04" fill-opacity="0.11"/>
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5">
     <text x="24" y="76" fill="#7d7568">LLM infra</text>
