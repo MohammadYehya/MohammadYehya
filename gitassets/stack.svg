@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 150" width="880" height="150" role="img" aria-labelledby="t">
+  <title id="t">Stack — Agentic AI frameworks, LangGraph, CrewAI, RAG pipelines, Modern LLM stacks, Multi-agent workflows, Distributed architectures, Kafka, FastAPI, Serverless design, Vector search, Cloud-native backends. For full list of skills, check out my portfolio.</title>
+  <style>
+    .m1{animation:m1 32s linear infinite}
+    @keyframes m1{from{transform:translateX(0)}to{transform:translateX(-1021px)}}
+    .m2{animation:m2 40s linear infinite}
+    @keyframes m2{from{transform:translateX(-1030px)}to{transform:translateX(0)}}
+  </style>
+  <defs>
+    <clipPath id="panelClip"><rect x="0" y="0" width="880" height="150" rx="16"/></clipPath>
+    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0e0d0b" stop-opacity="1"/>
+      <stop offset="0.22" stop-color="#0e0d0b" stop-opacity="1"/>
+      <stop offset="0.6" stop-color="#0e0d0b" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#0e0d0b" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeR" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0e0d0b" stop-opacity="0"/>
+      <stop offset="0.4" stop-color="#0e0d0b" stop-opacity="0.8"/>
+      <stop offset="0.78" stop-color="#0e0d0b" stop-opacity="1"/>
+      <stop offset="1" stop-color="#0e0d0b" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#panelClip)">  <rect x="0" y="0" width="880" height="150" rx="16" fill="#0e0d0b"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2.1">
+    <text x="40" y="27" fill="#EFBF04">02</text>
+    <text x="70" y="27" fill="#efeade">STACK</text>
+    <text x="840" y="27" font-size="10" letter-spacing="1.6" fill="#7d7568" text-anchor="end">FOR FULL LIST OF SKILLS, CHECK OUT <tspan fill="#EFBF04" fill-opacity="0.75">MY PORTFOLIO</tspan></text>
+  </g>
+  <rect x="0" y="43" width="880" height="1" fill="#EFBF04" fill-opacity="0.11"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+    <g class="m1">
+      <text x="0.0" y="87" fill="#cfc8b8">Agentic AI frameworks</text>
+      <text x="196.4" y="87" fill="#EFBF04" fill-opacity="0.55">·</text>
+      <text x="224.8" y="87" fill="#cfc8b8">LangGraph</text>
+      <text x="320.4" y="87" fill="#EFBF04" fill-opacity="0.55">·</text>
+      <text x="348.8" y="87" fill="#cfc8b8">CrewAI</text>
+      <text x="419.2" y="87" fill="#EFBF04" fill-opacity="0.55">·</text>
+      <text x="447.6" y="87" fill="#cfc8b8">RAG pipelines</text>
+      <text x="576.8" y="87" fill="#EFBF04" fill-opacity="0.55">·</text>
+      <text x="605.2" y="87" fill="#cfc8b8">Modern LLM stacks</text>
+      <text x="768.0" y="87" fill="#EFBF04" fill-opacity="0.55">·</text>
+      <text x="796.4" y="87" fill="#cfc8b8">Multi-agent workflows</text>
+      <text x="992.8" y="87" fill="#EFBF04" fill-opacity="0.55">·</text>
+      <text x="1021.0" y="87" fill="#cfc8b8">Agentic AI frameworks</text>
+      <text x="1217.4" y="87" fill="#EFBF04" fill-opacity="0.55">·</text>
+      <text x="1245.8" y="87" fill="#cfc8b8">LangGraph</text>
+      <text x="1341.4" y="87" fill="#EFBF04" fill-opacity="0.55">·</text>
+      <text x="1369.8" y="87" fill="#cfc8b8">CrewAI</text>
+      <text x="1440.2" y="87" fill="#EFBF04" fill-opacity="0.55">·</text>
+      <text x="1468.6" y="87" fill="#cfc8b8">RAG pipelines</text>
+      <text x="1597.8" y="87" fill="#EFBF04" fill-opacity="0.55">·</text>
+      <text x="1626.2" y="87" fill="#cfc8b8">Modern LLM stacks</text>
+      <text x="1789.0" y="87" fill="#EFBF04" fill-opacity="0.55">·</text>
+      <text x="1817.4" y="87" fill="#cfc8b8">Multi-agent workflows</text>
+      <text x="2013.8" y="87" fill="#EFBF04" fill-opacity="0.55">·</text>
+    </g>
+    <g class="m2">
+      <text x="0.0" y="117" fill="#948c7c">Distributed architectures</text>
+      <text x="230.0" y="117" fill="#EFBF04" fill-opacity="0.55">·</text>
+      <text x="258.4" y="117" fill="#948c7c">Kafka</text>
+      <text x="320.4" y="117" fill="#EFBF04" fill-opacity="0.55">·</text>
+      <text x="348.8" y="117" fill="#948c7c">FastAPI</text>
+      <text x="427.6" y="117" fill="#EFBF04" fill-opacity="0.55">·</text>
+      <text x="456.0" y="117" fill="#948c7c">Serverless design</text>
+      <text x="618.8" y="117" fill="#EFBF04" fill-opacity="0.55">·</text>
+      <text x="647.2" y="117" fill="#948c7c">Vector search</text>
+      <text x="776.4" y="117" fill="#EFBF04" fill-opacity="0.55">·</text>
+      <text x="804.8" y="117" fill="#948c7c">Cloud-native backends</text>
+      <text x="1001.2" y="117" fill="#EFBF04" fill-opacity="0.55">·</text>
+      <text x="1030.0" y="117" fill="#948c7c">Distributed architectures</text>
+      <text x="1260.0" y="117" fill="#EFBF04" fill-opacity="0.55">·</text>
+      <text x="1288.4" y="117" fill="#948c7c">Kafka</text>
+      <text x="1350.4" y="117" fill="#EFBF04" fill-opacity="0.55">·</text>
+      <text x="1378.8" y="117" fill="#948c7c">FastAPI</text>
+      <text x="1457.6" y="117" fill="#EFBF04" fill-opacity="0.55">·</text>
+      <text x="1486.0" y="117" fill="#948c7c">Serverless design</text>
+      <text x="1648.8" y="117" fill="#EFBF04" fill-opacity="0.55">·</text>
+      <text x="1677.2" y="117" fill="#948c7c">Vector search</text>
+      <text x="1806.4" y="117" fill="#EFBF04" fill-opacity="0.55">·</text>
+      <text x="1834.8" y="117" fill="#948c7c">Cloud-native backends</text>
+      <text x="2031.2" y="117" fill="#EFBF04" fill-opacity="0.55">·</text>
+    </g>
+  </g>
+  <rect x="0" y="44" width="120" height="106" fill="url(#fadeL)"/>
+  <rect x="760" y="44" width="120" height="106" fill="url(#fadeR)"/>
+  <rect x="1" y="1" width="878" height="148" rx="15" fill="none" stroke="#EFBF04" stroke-opacity="0.16"/>
+  </g>
+</svg>
