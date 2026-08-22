@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293 216" width="293" height="216" role="img" aria-label="@MathCodex: a tool that exposes structured mathematical tools to LLMs.">
-  <path d="M0,0 H281 A12,12 0 0 1 293,12 V204 A12,12 0 0 1 281,216 H0 Z" fill="#0e0d0b"/>
+  <path d="M0,0 H281 A12,12 0 0 1 293,12 V204 A12,12 0 0 1 281,216 H0 Z" fill="#161b22"/>
   <rect x="0" y="44" width="1" height="172" fill="#EFBF04" fill-opacity="0.16"/>
-  <rect x="0" y="43" width="293" height="1" fill="#EFBF04" fill-opacity="0.11"/>
+  <rect x="0" y="43" width="293" height="1" fill="#30363d" fill-opacity="1"/>
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5">
-    <text x="24" y="76" fill="#7d7568">LLM infra</text>
+    <text x="24" y="76" fill="#6e7681">LLM infra</text>
     <text x="269" y="76" fill="#EFBF04" fill-opacity="0.55" text-anchor="end">↗</text>
   </g>
   <text x="24" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="17" font-weight="700" fill="#EFBF04">@MathCodex</text>
-  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="12.5" fill="#aaa393">
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="12.5" fill="#8b949e">
     <text x="24" y="142">a tool that exposes structured</text>
     <text x="24" y="163">mathematical tools to LLMs.</text>
   </g>
-  <path d="M0,1 H280 A12,12 0 0 1 292,13 V203 A12,12 0 0 1 280,215 H0" fill="none" stroke="#EFBF04" stroke-opacity="0.16"/>
+  <path d="M0,1 H280 A12,12 0 0 1 292,13 V203 A12,12 0 0 1 280,215 H0" fill="none" stroke="#30363d" stroke-opacity="1"/>
 </svg>

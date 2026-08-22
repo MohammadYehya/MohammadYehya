@@ -5,7 +5,7 @@ on:
       - main
     paths:
       - 'main.tex'
-      - 'gitassets/certification/**'
+      - 'other/certs/**'
 
 jobs:
   build_latex:

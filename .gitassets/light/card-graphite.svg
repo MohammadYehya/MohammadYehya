@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293 216" width="293" height="216" role="img" aria-label="@Graphite.click: minimal visual thinking and diagramming tool focused on clarity and structured workflows.">
+  <path d="M0,0 H293 V216 H0 Z" fill="#f6f8fa"/>
+  <rect x="0" y="44" width="1" height="172" fill="#9a6700" fill-opacity="0.16"/>
+  <rect x="0" y="43" width="293" height="1" fill="#d0d7de" fill-opacity="1"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5">
+    <text x="24" y="76" fill="#6e7781">tool</text>
+    <text x="269" y="76" fill="#9a6700" fill-opacity="0.55" text-anchor="end">↗</text>
+  </g>
+  <text x="24" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="17" font-weight="700" fill="#9a6700">@Graphite.click</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="12.5" fill="#59636e">
+    <text x="24" y="142">minimal visual thinking and</text>
+    <text x="24" y="163">diagramming tool focused on</text>
+    <text x="24" y="184">clarity and structured workflows.</text>
+  </g>
+  <path d="M0,1 H293 M0,215 H293" fill="none" stroke="#d0d7de" stroke-opacity="1"/>
+</svg>
