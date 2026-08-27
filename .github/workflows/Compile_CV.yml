@@ -1,4 +1,5 @@
 name: Build Resume PDF
+
 on:
   push:
     branches:
@@ -7,11 +8,27 @@ on:
       - 'main.tex'
       - 'other/certs/**'
 
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'main.tex'
+      - 'other/certs/**'
+
+# Prevent multiple outdated builds from running simultaneously.
+concurrency:
+  group: resume-pdf-${{ github.ref }}
+  cancel-in-progress: true
+
+# Default to least-privilege permissions.
+permissions:
+  contents: read
+
 jobs:
-  build_latex:
+  build:
+    name: Build Resume PDF
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -23,9 +40,42 @@ jobs:
           args: "-pdf -interaction=nonstopmode -shell-escape"
           extra_system_packages: "inkscape librsvg"
 
+      - name: Verify generated PDF
+        run: |
+          test -f main.pdf
+          test -s main.pdf
+          echo "PDF generated successfully"
+          ls -lh main.pdf
+
+      # Store the exact artifact produced by CI.
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume-pdf
+          path: main.pdf
+          retention-days: 7
+
+  release:
+    name: Release Latest Resume
+    needs: build
+
+    # Release only after changes are actually pushed to main.
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+
+    runs-on: ubuntu-latest
+
+    # Only this job needs write access.
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download PDF artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: resume-pdf
+
       - name: Release Latest PDF
         uses: softprops/action-gh-release@v2
-        if: github.ref == 'refs/heads/main'
         with:
           tag_name: latest
           name: Latest Resume Build
